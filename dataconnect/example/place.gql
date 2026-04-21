@@ -1,0 +1,10 @@
+query ListPlaces @auth(level: PUBLIC) {
+  places {
+    id
+    name
+    description
+    city
+    lat
+    lng
+  }
+}

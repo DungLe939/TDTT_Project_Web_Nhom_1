@@ -1,0 +1,4 @@
+- Tại folder cha chứa ReactJS và NestJS
+- Mở terminal và chạy lệnh: firebase login
+- Sau khi login thành công, chạy lệnh: firebase init dataconnect
+- Chọn "Use an existing project" và chọn project "smart-tourism-abf26"

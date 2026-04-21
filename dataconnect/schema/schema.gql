@@ -1,0 +1,26 @@
+type Place @table {
+  id: UUID! @default(expr: "uuidV4()")
+  name: String!
+  description: String
+  city: String
+  lat: Float
+  lng: Float
+}
+
+type Restaurant @table {
+  id: UUID! @default(expr: "uuidV4()")
+  name: String!
+  address: String
+  avgPrice: Int
+  rating: Float
+  placeId: UUID
+}
+
+type Itinerary @table {
+  id: UUID! @default(expr: "uuidV4()")
+  guestId: String!
+  placeName: String!
+  dayIndex: Int!
+  mealType: String!
+  restaurantName: String!
+}
