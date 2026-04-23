@@ -1,0 +1,71 @@
+# ===========================================
+# Mutations cho việc seed data và quản lý
+# ===========================================
+
+# Thêm 1 Category
+mutation CreateCategory($name: String!, $slug: String!) @auth(level: PUBLIC) {
+  category_insert(data: {
+    name: $name,
+    slug: $slug
+  })
+}
+
+# Thêm 1 Shop
+mutation CreateShop(
+  $externalId: String!,
+  $name: String!,
+  $address: String!,
+  $city: String!,
+  $rating: Float,
+  $coverImage: String,
+  $url: String,
+  $openTime: String,
+  $closeTime: String,
+  $priceMin: Int,
+  $priceMax: Int,
+  $priceDisplay: String
+) @auth(level: PUBLIC) {
+  shop_insert(data: {
+    externalId: $externalId,
+    name: $name,
+    address: $address,
+    city: $city,
+    rating: $rating,
+    coverImage: $coverImage,
+    url: $url,
+    openTime: $openTime,
+    closeTime: $closeTime,
+    priceMin: $priceMin,
+    priceMax: $priceMax,
+    priceDisplay: $priceDisplay
+  })
+}
+
+# Thêm 1 FoodItem
+mutation CreateFoodItem(
+  $name: String!,
+  $description: String,
+  $price: Int!,
+  $priceDisplay: String,
+  $imageUrl: String,
+  $thumbnailUrl: String,
+  $groupName: String,
+  $isPopular: Boolean!,
+  $totalLike: Int!,
+  $shopId: UUID!,
+  $categoryId: UUID!
+) @auth(level: PUBLIC) {
+  foodItem_insert(data: {
+    name: $name,
+    description: $description,
+    price: $price,
+    priceDisplay: $priceDisplay,
+    imageUrl: $imageUrl,
+    thumbnailUrl: $thumbnailUrl,
+    groupName: $groupName,
+    isPopular: $isPopular,
+    totalLike: $totalLike,
+    shopId: $shopId,
+    categoryId: $categoryId
+  })
+}

@@ -1,26 +1,91 @@
-type Place @table {
+# ==========================================
+# Bảng 1: CrawlBatch (metadata lần crawl)
+# ==========================================
+# Dùng để lưu metadata từ root của shopeefood_shops.json
+# (scraped_at, total_shops, total_foods...). Shop có thể trỏ về 1 batch.
+type CrawlBatch @table @unique(fields: ["sourceName", "scrapedAt"]) {
   id: UUID! @default(expr: "uuidV4()")
-  name: String!
+  sourceName: String!              # Ví dụ: "shopeefood_shops.json"
+  scrapedAt: Timestamp!
+  city: String!                    # "ho-chi-minh"
+  totalShops: Int
+  totalFoods: Int
+  shopsWithMenu: Int
+  shopsWithHours: Int
+  shopsWithPriceRange: Int
+  createdAt: Timestamp! @default(expr: "request.time")
+}
+
+# ==========================================
+# Bảng 2: Category (Danh mục món ăn)
+# ==========================================
+type Category @table {
+  id: UUID! @default(expr: "uuidV4()")
+  name: String! @unique            # "Phở", "Bún Bò", "Cà phê"...
+  slug: String! @unique @index     # "pho", "bun-bo", "ca-phe"
+  createdAt: Timestamp! @default(expr: "request.time")
+}
+
+# ==========================================
+# Bảng 3: Shop (Nhà hàng / Quán ăn)
+# ==========================================
+type Shop @table {
+  id: UUID! @default(expr: "uuidV4()")
+  externalId: String @unique @index # id từ shops[].id (nullable nếu import từ flat trước)
+  deliveryId: String @index         # shops[].delivery_id
+  name: String! @index
+  address: String!
+  city: String! @index
+  rating: Float @index
+  coverImage: String                # shops[].cover_image
+  coverLocal: String                # shops[].cover_local
+  url: String! @unique @index       # khóa nối với foods[].restaurant_url
+  openTime: String                  # shops[].opening_hours.open
+  closeTime: String                 # shops[].opening_hours.close
+  priceMin: Int                     # shops[].price_range.min
+  priceMax: Int                     # shops[].price_range.max
+  priceDisplay: String              # shops[].price_range.display
+
+  # Quan hệ optional để theo dõi lô dữ liệu crawl
+  crawlBatch: CrawlBatch
+
+  createdAt: Timestamp! @default(expr: "request.time")
+}
+
+# ==========================================
+# Bảng 4: FoodItem (Món ăn)
+# ==========================================
+# Hợp nhất dữ liệu từ:
+# - shopeefood_flat.json (mảng foods phẳng)
+# - shopeefood_shops.json (shops[].foods[])
+type FoodItem @table {
+  id: UUID! @default(expr: "uuidV4()")
+
+  name: String! @index
   description: String
-  city: String
-  lat: Float
-  lng: Float
-}
+  price: Int! @index                # map từ price_value (fallback: price)
+  priceValue: Int                   # giữ lại raw field để debug/đối soát
+  priceDisplay: String
 
-type Restaurant @table {
-  id: UUID! @default(expr: "uuidV4()")
-  name: String!
-  address: String
-  avgPrice: Int
-  rating: Float
-  placeId: UUID
-}
+  imageUrl: String                  # image_url
+  thumbnailUrl: String              # photo_id (ảnh 120x120)
+  photoId: String                   # giữ nguyên field gốc photo_id
+  localImage: String                # local_image
 
-type Itinerary @table {
-  id: UUID! @default(expr: "uuidV4()")
-  guestId: String!
-  placeName: String!
-  dayIndex: Int!
-  mealType: String!
-  restaurantName: String!
+  groupName: String @index          # group_name
+  isPopular: Boolean! @default(value: false)
+  totalLike: Int! @default(value: 0)
+
+  # Từ flat/foods có sẵn restaurant_name, restaurant_url.
+  # Về logic có thể suy ra từ shop, nhưng giữ lại để trace nguồn dữ liệu.
+  sourceRestaurantName: String
+  sourceRestaurantUrl: String @index
+
+  # === Quan hệ ===
+  shopId: UUID!
+  categoryId: UUID!
+  shop: Shop! @ref(fields: "shopId", references: "id")           # N FoodItem -> 1 Shop
+  category: Category! @ref(fields: "categoryId", references: "id") # N FoodItem -> 1 Category
+
+  createdAt: Timestamp! @default(expr: "request.time")
 }

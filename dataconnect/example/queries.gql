@@ -1,0 +1,170 @@
+# ===========================================
+# Queries cho trang Foods (danh sách, chi tiết)
+# ===========================================
+
+# Lấy danh sách tất cả categories (cho bộ lọc)
+query ListCategories @auth(level: PUBLIC) {
+  categories(orderBy: [{ name: ASC }]) {
+    id
+    name
+    slug
+  }
+}
+
+# Lấy danh sách món ăn (trang chính /foods)
+# - Hỗ trợ filter theo category, khoảng giá
+# - Kèm thông tin shop và category
+query ListFoods($limit: Int, $offset: Int) @auth(level: PUBLIC) {
+  foodItems(
+    orderBy: [{ totalLike: DESC }, { name: ASC }]
+    limit: $limit
+    offset: $offset
+  ) {
+    id
+    name
+    description
+    price
+    priceDisplay
+    imageUrl
+    thumbnailUrl
+    groupName
+    isPopular
+    totalLike
+    shop {
+      id
+      name
+      rating
+      address
+    }
+    category {
+      id
+      name
+      slug
+    }
+  }
+}
+
+# Lấy danh sách món ăn theo category slug
+query ListFoodsByCategory($categoryId: UUID!, $limit: Int, $offset: Int)
+@auth(level: PUBLIC) {
+  foodItems(
+    where: { category: { id: { eq: $categoryId } } }
+    orderBy: [{ totalLike: DESC }, { name: ASC }]
+    limit: $limit
+    offset: $offset
+  ) {
+    id
+    name
+    description
+    price
+    priceDisplay
+    imageUrl
+    thumbnailUrl
+    isPopular
+    totalLike
+    shop {
+      id
+      name
+      rating
+    }
+    category {
+      id
+      name
+      slug
+    }
+  }
+}
+
+# Lấy chi tiết 1 món ăn (trang /foods/:id)
+query GetFoodDetail($id: UUID!) @auth(level: PUBLIC) {
+  foodItem(id: $id) {
+    id
+    name
+    description
+    price
+    priceDisplay
+    imageUrl
+    thumbnailUrl
+    groupName
+    isPopular
+    totalLike
+    shop {
+      id
+      name
+      address
+      city
+      rating
+      coverImage
+      url
+      openTime
+      closeTime
+      priceMin
+      priceMax
+      priceDisplay
+    }
+    category {
+      id
+      name
+      slug
+    }
+  }
+}
+
+# ===========================================
+# Queries cho trang Shop (chi tiết shop)
+# ===========================================
+
+# Lấy chi tiết 1 shop + tất cả món ăn của shop đó (trang /shops/:id)
+query GetShopDetail($id: UUID!) @auth(level: PUBLIC) {
+  shop(id: $id) {
+    id
+    externalId
+    name
+    address
+    city
+    rating
+    coverImage
+    url
+    openTime
+    closeTime
+    priceMin
+    priceMax
+    priceDisplay
+    foodItems_on_shop {
+      id
+      name
+      description
+      price
+      priceDisplay
+      imageUrl
+      thumbnailUrl
+      groupName
+      isPopular
+      totalLike
+      category {
+        id
+        name
+        slug
+      }
+    }
+  }
+}
+
+# Lấy danh sách tất cả shops
+query ListShops($limit: Int, $offset: Int) @auth(level: PUBLIC) {
+  shops(
+    orderBy: [{ rating: DESC }, { name: ASC }]
+    limit: $limit
+    offset: $offset
+  ) {
+    id
+    name
+    address
+    city
+    rating
+    coverImage
+    priceDisplay
+    openTime
+    closeTime
+  }
+}
