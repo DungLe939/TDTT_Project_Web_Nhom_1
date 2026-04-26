@@ -15,15 +15,19 @@
 import { readFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { config } from "dotenv";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+// Load .env từ thư mục gốc
+config({ path: resolve(__dirname, "..", ".env") });
+
 // ============================================================
-// Cấu hình
+// Cấu hình (Lấy từ .env)
 // ============================================================
-const PROJECT_ID = "smart-tourism-abf26";
-const LOCATION = "asia-southeast1";
-const SERVICE_ID = "smart-tourism-abf26-service";
+const PROJECT_ID = process.env.FIREBASE_PROJECT_ID;
+const LOCATION = process.env.FIREBASE_LOCATION;
+const SERVICE_ID = process.env.FIREBASE_SERVICE_ID;
 
 const GRAPHQL_URL = `http://127.0.0.1:9399/v1alpha/projects/${PROJECT_ID}/locations/${LOCATION}/services/${SERVICE_ID}:executeGraphql`;
 
@@ -152,7 +156,9 @@ async function main() {
       $closeTime: String,
       $priceMin: Int,
       $priceMax: Int,
-      $priceDisplay: String
+      $priceDisplay: String,
+      $lat: Float,
+      $lng: Float
     ) {
       shop_insert(data: {
         externalId: $externalId,
@@ -166,7 +172,9 @@ async function main() {
         closeTime: $closeTime,
         priceMin: $priceMin,
         priceMax: $priceMax,
-        priceDisplay: $priceDisplay
+        priceDisplay: $priceDisplay,
+        lat: $lat,
+        lng: $lng
       })
     }
   `;
@@ -188,6 +196,8 @@ async function main() {
       priceMin: shop.price_range?.min ?? null,
       priceMax: shop.price_range?.max ?? null,
       priceDisplay: shop.price_range?.display ?? null,
+      lat: shop.location?.lat ?? 10.762622,
+      lng: shop.location?.lng ?? 106.660172
     };
 
     try {
