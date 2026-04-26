@@ -37,6 +37,8 @@ type Shop @table {
   address: String!
   city: String! @index
   rating: Float @index
+  lat: Float @index
+  lng: Float @index
   coverImage: String                # shops[].cover_image
   coverLocal: String                # shops[].cover_local
   url: String! @unique @index       # khóa nối với foods[].restaurant_url

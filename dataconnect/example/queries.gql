@@ -35,6 +35,8 @@ query ListFoods($limit: Int, $offset: Int) @auth(level: PUBLIC) {
       name
       rating
       address
+      lat
+      lng
     }
     category {
       id
@@ -166,5 +168,7 @@ query ListShops($limit: Int, $offset: Int) @auth(level: PUBLIC) {
     priceDisplay
     openTime
     closeTime
+    lat
+    lng
   }
 }

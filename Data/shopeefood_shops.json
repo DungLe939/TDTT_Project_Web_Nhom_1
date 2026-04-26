@@ -202,7 +202,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/corn-tea-coffee-coffee-buon-me-chuan-vi"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Corn_Tea_&_Coffee_-_Coffee_Buôn_Mê_Chuẩn_Vị.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Corn_Tea_&_Coffee_-_Coffee_Buôn_Mê_Chuẩn_Vị.jpg",
+      "location": {
+        "lat": 42.299637,
+        "lng": -70.885167
+      }
     },
     {
       "id": "182271",
@@ -656,7 +660,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/phu-gia-pho-phan-van-hon.srepav"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Phú_Gia_-_Phở_-_Phan_Văn_Hớn.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Phú_Gia_-_Phở_-_Phan_Văn_Hớn.jpg",
+      "location": {
+        "lat": 10.875026,
+        "lng": 106.65772
+      }
     },
     {
       "id": "182250",
@@ -1141,7 +1149,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/di-chin-banh-mi-xoi-man-le-van-khuong"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Dì_Chín_-_Bánh_Mì_&_Xôi_Mặn_-_Lê_Văn_Khương.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Dì_Chín_-_Bánh_Mì_&_Xôi_Mặn_-_Lê_Văn_Khương.jpg",
+      "location": {
+        "lat": 10.875026,
+        "lng": 106.65772
+      }
     },
     {
       "id": "183442",
@@ -2442,7 +2454,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/banh-mi-ha-noi-289-banh-mi-ba-hat.rtgrof"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bánh_Mì_Hà_Nội_289_-_Bánh_Mì_-_Bà_Hạt.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bánh_Mì_Hà_Nội_289_-_Bánh_Mì_-_Bà_Hạt.jpg",
+      "location": {
+        "lat": 10.771075,
+        "lng": 106.660431
+      }
     },
     {
       "id": "183146",
@@ -2863,7 +2879,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/hu-tieu-mi-xa-xiu-a-phu"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_HỦ_TIẾU_MÌ_XÁ_XÍU_A_PHÚ.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_HỦ_TIẾU_MÌ_XÁ_XÍU_A_PHÚ.jpg",
+      "location": {
+        "lat": 10.771075,
+        "lng": 106.660431
+      }
     },
     {
       "id": "182048",
@@ -2871,7 +2891,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/diem-hong-mi-kho-nguyen-thien-thuat.3uzrvn",
       "delivery_id": "182048",
       "address": "16/47/12 Nguyễn Thiện Thuật Nguyễn Thiện Thuật, P. 2, Quận 3, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve5h5udift96",
       "opening_hours": {
         "open": "",
@@ -2900,7 +2920,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/diem-hong-mi-kho-nguyen-thien-thuat.3uzrvn"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Diễm_Hồng_-_Mì_Khô_-_Nguyễn_Thiện_Thuật.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Diễm_Hồng_-_Mì_Khô_-_Nguyễn_Thiện_Thuật.jpg",
+      "location": {
+        "lat": 10.784274,
+        "lng": 106.678627
+      }
     },
     {
       "id": "184084",
@@ -2908,7 +2932,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/thien-duong-ca-phe-quoc-lo-13",
       "delivery_id": "184084",
       "address": "60/30 Quốc Lộ 13, P. 26, Bình Thạnh, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve8vskx2v826",
       "opening_hours": {
         "open": "",
@@ -3321,7 +3345,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/thien-duong-ca-phe-quoc-lo-13"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Thiên_Đường_-_Cà_phê_-_Quốc_Lộ_13.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Thiên_Đường_-_Cà_phê_-_Quốc_Lộ_13.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "184285",
@@ -3329,7 +3357,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/quan-milo-bun-bo-tra-sua-huynh-van-banh.saomso",
       "delivery_id": "184285",
       "address": "525/116 Huỳnh Văn Bánh, P. 14, Phú Nhuận, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve7h2b479ga7",
       "opening_hours": {
         "open": "",
@@ -3358,7 +3386,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/quan-milo-bun-bo-tra-sua-huynh-van-banh.saomso"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Milo_-_Bún_Bò_&_Trà_Sữa_-_Huỳnh_Văn_Bánh.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Milo_-_Bún_Bò_&_Trà_Sữa_-_Huỳnh_Văn_Bánh.jpg",
+      "location": {
+        "lat": 10.790582,
+        "lng": 106.668315
+      }
     },
     {
       "id": "183441",
@@ -3366,7 +3398,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/panda-s-house-organic-food-nguyen-thien-thuat.1sq8pa",
       "delivery_id": "183441",
       "address": "271 Nguyễn Thiện Thuật, P.1, Quận 3, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve547z9uah28",
       "opening_hours": {
         "open": "",
@@ -3395,7 +3427,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/panda-s-house-organic-food-nguyen-thien-thuat.1sq8pa"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Panda's_House_-_Organic_Food_-_Nguyễn_Thiện_Thuật.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Panda's_House_-_Organic_Food_-_Nguyễn_Thiện_Thuật.jpg",
+      "location": {
+        "lat": 10.784274,
+        "lng": 106.678627
+      }
     },
     {
       "id": "183338",
@@ -3403,7 +3439,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/phu-quy-com-chien-kinh-duong-vuong.y3komq",
       "delivery_id": "183338",
       "address": "624/4 Kinh Dương Vương, P. An Lạc, Bình Tân, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve5ktwyu2s04",
       "opening_hours": {
         "open": "",
@@ -3432,7 +3468,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/phu-quy-com-chien-kinh-duong-vuong.y3komq"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Phú_Quý__-_Cơm_Chiên_-_Kinh_Dương_Vương.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Phú_Quý__-_Cơm_Chiên_-_Kinh_Dương_Vương.jpg",
+      "location": {
+        "lat": 10.752719,
+        "lng": 106.589787
+      }
     },
     {
       "id": "184287",
@@ -3469,7 +3509,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/quan-381-hu-tieu-bo-kho-le-van-quoi.qhndbb"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Quán_381_-_Hủ_Tiếu_&_Bò_Kho_-__Lê_Văn_Quới.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Quán_381_-_Hủ_Tiếu_&_Bò_Kho_-__Lê_Văn_Quới.jpg",
+      "location": {
+        "lat": 10.76028,
+        "lng": 106.59806
+      }
     },
     {
       "id": "181488",
@@ -3506,7 +3550,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/an-vat-benben-mi-tron-thailan"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Ăn_Vặt_Benben_-_Mì_Trộn_Thailan.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Ăn_Vặt_Benben_-_Mì_Trộn_Thailan.jpg",
+      "location": {
+        "lat": 10.762391,
+        "lng": 106.600628
+      }
     },
     {
       "id": "182399",
@@ -3514,7 +3562,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/an-vat-na-na-xien-que-nhieu-vi-cao-lo.ftsoah",
       "delivery_id": "182399",
       "address": "9/5 Đường 152 Cao Lỗ, P.4, Quận 8, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve6d0bqd958b",
       "opening_hours": {
         "open": "",
@@ -4151,7 +4199,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/an-vat-na-na-xien-que-nhieu-vi-cao-lo.ftsoah"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Ăn_Vặt_Na_Na_-_Xiên_Que_Nhiều_Vị_-_Cao_Lỗ.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Ăn_Vặt_Na_Na_-_Xiên_Que_Nhiều_Vị_-_Cao_Lỗ.jpg",
+      "location": {
+        "lat": 10.793105,
+        "lng": 106.722369
+      }
     },
     {
       "id": "183131",
@@ -4159,7 +4211,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/234-binh-long-ca-phe-nuoc-ep-an-vat-binh-long.tuzr10",
       "delivery_id": "183131",
       "address": "234 Bình Long, P. Phú Thạnh, Tân Phú, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve6no24tl01f",
       "opening_hours": {
         "open": "",
@@ -4188,7 +4240,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/234-binh-long-ca-phe-nuoc-ep-an-vat-binh-long.tuzr10"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_234_Bình_Long_-_Cà_Phê,_Nước_Ép_&_Ăn_vặt_-_Bình_Long.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_234_Bình_Long_-_Cà_Phê,_Nước_Ép_&_Ăn_vặt_-_Bình_Long.jpg",
+      "location": {
+        "lat": 10.7923591,
+        "lng": 106.6157629
+      }
     },
     {
       "id": "181268",
@@ -4196,7 +4252,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/pho-gia-bao-pho-duong-so-2.vydb1v",
       "delivery_id": "181268",
       "address": "178 Đường Số 2, P. Bình Hưng Hòa B, Bình Tân, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve2fjgr5i1d3",
       "opening_hours": {
         "open": "",
@@ -4225,7 +4281,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/pho-gia-bao-pho-duong-so-2.vydb1v"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Phở_Gia_Bảo_-_Phở_-_Đường_Số_2.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Phở_Gia_Bảo_-_Phở_-_Đường_Số_2.jpg",
+      "location": {
+        "lat": 10.752719,
+        "lng": 106.589787
+      }
     },
     {
       "id": "182417",
@@ -4233,7 +4293,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/noi-dia-dai-loan-an-vat-huynh-tan-phat",
       "delivery_id": "182417",
       "address": "984 Huỳnh Tấn Phát, P. Tân Phú, Quận 7, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve66un68pl79",
       "opening_hours": {
         "open": "",
@@ -4646,7 +4706,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/noi-dia-dai-loan-an-vat-huynh-tan-phat"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Nội_Địa_Đài_Loan_-_Ăn_Vặt_-_Huỳnh_Tấn_Phát.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Nội_Địa_Đài_Loan_-_Ăn_Vặt_-_Huỳnh_Tấn_Phát.jpg",
+      "location": {
+        "lat": 10.781358,
+        "lng": 106.622158
+      }
     },
     {
       "id": "182891",
@@ -4654,7 +4718,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/ngoc-ky-com-ga-xoi-mo-vinh-loc.jnwbj0",
       "delivery_id": "182891",
       "address": "A6/8C Vĩnh Lộc, X. Vĩnh Lộc A, Bình Chánh, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve69dn1m1010",
       "opening_hours": {
         "open": "",
@@ -4683,7 +4747,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/ngoc-ky-com-ga-xoi-mo-vinh-loc.jnwbj0"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Ngọc_Ký_-_Cơm_Gà_Xối_Mỡ_-_Vĩnh_Lộc.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Ngọc_Ký_-_Cơm_Gà_Xối_Mỡ_-_Vĩnh_Lộc.jpg",
+      "location": {
+        "lat": 10.796331,
+        "lng": 106.543767
+      }
     },
     {
       "id": "182919",
@@ -4720,7 +4788,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/quan-ngon-pho-bo-bun-bo-bun-thit-nuong-so-12.jaujfy"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Ngon_-_Phở_Bò,_Bún_Bò_&_Bún_Thịt_Nướng_-_Số_12.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Ngon_-_Phở_Bò,_Bún_Bò_&_Bún_Thịt_Nướng_-_Số_12.jpg",
+      "location": {
+        "lat": 10.764726,
+        "lng": 106.652299
+      }
     },
     {
       "id": "182388",
@@ -4757,7 +4829,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/goi-thai-chau-lac-thao-goi-thai-le-hong-phong"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Gỏi_Thái_Châu_Lạc_Thảo_-_Gỏi_Thái_-_Lê_Hồng_Phong.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Gỏi_Thái_Châu_Lạc_Thảo_-_Gỏi_Thái_-_Lê_Hồng_Phong.jpg",
+      "location": {
+        "lat": 10.771075,
+        "lng": 106.660431
+      }
     },
     {
       "id": "184071",
@@ -4794,7 +4870,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/gia-an-do-an-sang-duong-so-14"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Gia_Ân_-_Đồ_Ăn_Sáng_-_Đường_Số_14.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Gia_Ân_-_Đồ_Ăn_Sáng_-_Đường_Số_14.jpg",
+      "location": {
+        "lat": 10.752719,
+        "lng": 106.589787
+      }
     },
     {
       "id": "182227",
@@ -4802,7 +4882,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/abi-com-ga-xoi-mo-dinh-bo-linh.cmf0in",
       "delivery_id": "182227",
       "address": "8/12 Đinh Bộ Lĩnh, P.24, Bình Thạnh, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve3binyie142",
       "opening_hours": {
         "open": "",
@@ -4831,7 +4911,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/abi-com-ga-xoi-mo-dinh-bo-linh.cmf0in"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_ABI_-_Cơm_Gà_Xối_Mỡ_-_Đinh_Bộ_Lĩnh.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_ABI_-_Cơm_Gà_Xối_Mỡ_-_Đinh_Bộ_Lĩnh.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "184106",
@@ -4839,7 +4923,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/bun-rieu-huong-lan-bun-rieu-hoang-ngan.xasz6u",
       "delivery_id": "184106",
       "address": "133/21/49  Hoàng Ngân, P. 16, Quận 8, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve87u7xms966",
       "opening_hours": {
         "open": "",
@@ -4868,7 +4952,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/bun-rieu-huong-lan-bun-rieu-hoang-ngan.xasz6u"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Riêu_Hương_Lan_-_Bún_Riêu_-_Hoàng_Ngân.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Riêu_Hương_Lan_-_Bún_Riêu_-_Hoàng_Ngân.jpg",
+      "location": {
+        "lat": 10.86116,
+        "lng": 106.801043
+      }
     },
     {
       "id": "181971",
@@ -4876,7 +4964,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/aboka-cook-tokbokki-an-vat-han-quoc-cach-mang-thang-8.4vsd1p",
       "delivery_id": "181971",
       "address": "550 Cách Mạng Tháng 8, P. 11, Quận 3, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve5slblyh0b7",
       "opening_hours": {
         "open": "",
@@ -4905,7 +4993,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/aboka-cook-tokbokki-an-vat-han-quoc-cach-mang-thang-8.4vsd1p"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Aboka_Cook_Tokbokki_-_Ăn_Vặt_Hàn_Quốc_-_Cách_Mạng_Tháng_8.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Aboka_Cook_Tokbokki_-_Ăn_Vặt_Hàn_Quốc_-_Cách_Mạng_Tháng_8.jpg",
+      "location": {
+        "lat": 10.784274,
+        "lng": 106.678627
+      }
     },
     {
       "id": "181780",
@@ -4913,7 +5005,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/hang-ha-banh-canh-nguyen-cuu-van.yubzb2",
       "delivery_id": "181780",
       "address": "06 Nguyễn Cửu Vân, P. 17, Bình Thạnh, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve3m1ek9tw17",
       "opening_hours": {
         "open": "",
@@ -4942,7 +5034,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/hang-ha-banh-canh-nguyen-cuu-van.yubzb2"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Hằng_Hà_-_Bánh_Canh_-_Nguyễn_Cửu_Vân.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Hằng_Hà_-_Bánh_Canh_-_Nguyễn_Cửu_Vân.jpg",
+      "location": {
+        "lat": 10.7971509,
+        "lng": 106.7064553
+      }
     },
     {
       "id": "184035",
@@ -4950,7 +5046,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/um-dem-com-chien-mi-xao-phan-van-tri.xn6nwq",
       "delivery_id": "184035",
       "address": "58/23/8 Phan Văn Trị, P. 12, Bình Thạnh, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve8snngxi1a9",
       "opening_hours": {
         "open": "",
@@ -4979,7 +5075,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/um-dem-com-chien-mi-xao-phan-van-tri.xn6nwq"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Ùm_Đêm_-_Cơm_Chiên_&_Mì_Xào_-_Phan_Văn_Trị.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Ùm_Đêm_-_Cơm_Chiên_&_Mì_Xào_-_Phan_Văn_Trị.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "187126",
@@ -7289,7 +7389,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/nieu-quan-com-nieu-com-van-phong-nguyen-minh-hoang.taekwq"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Niêu_Quán_-_Cơm_Niêu_&_Cơm_Văn_Phòng_-_Nguyễn_Minh_Hoàng.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Niêu_Quán_-_Cơm_Niêu_&_Cơm_Văn_Phòng_-_Nguyễn_Minh_Hoàng.jpg",
+      "location": {
+        "lat": 42.299637,
+        "lng": -70.885167
+      }
     },
     {
       "id": "186347",
@@ -7297,7 +7401,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/mi-quang-chou-chou",
       "delivery_id": "186347",
       "address": "137/30/4/3 Phan Anh, P. Hiệp Tân, Tân Phú, TP. HCM",
-      "rating": 4.0,
+      "rating": 4,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvecix2zsexd8",
       "opening_hours": {
         "open": "03:00",
@@ -7390,7 +7494,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/mi-quang-chou-chou"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Mì_Quảng_Chou_Chou.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Mì_Quảng_Chou_Chou.jpg",
+      "location": {
+        "lat": 10.781358,
+        "lng": 106.622158
+      }
     },
     {
       "id": "190800",
@@ -8003,7 +8111,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/banh-mi-ha-noi-duc-hau-banh-mi-dinh-bo-linh.2fpmf4"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bánh_Mì_Hà_Nội_Đức_Hậu_-_Bánh_Mì_-_Đinh_Bộ_Lĩnh.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bánh_Mì_Hà_Nội_Đức_Hậu_-_Bánh_Mì_-_Đinh_Bộ_Lĩnh.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "188130",
@@ -8011,7 +8123,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/com-trua-binh-dan-com-van-phong-nguyen-truong-to",
       "delivery_id": "188130",
       "address": "37 Nguyễn Trường Tộ. P. Tân Thành, Tân Phú, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvectj5gog4f1",
       "opening_hours": {
         "open": "",
@@ -8040,7 +8152,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/com-trua-binh-dan-com-van-phong-nguyen-truong-to"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Trưa_Bình_Dân_-_Cơm_Văn_Phòng_-_Nguyễn_Trường_Tộ.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Trưa_Bình_Dân_-_Cơm_Văn_Phòng_-_Nguyễn_Trường_Tộ.jpg",
+      "location": {
+        "lat": 10.5792608,
+        "lng": 107.0622812
+      }
     },
     {
       "id": "184666",
@@ -8048,7 +8164,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/bana-bento-tra-sua-com-trua-nguyen-thong.uq7hdo",
       "delivery_id": "184666",
       "address": "73 Nguyễn Thông, P. 9, Quận 3, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve7hu1zli163",
       "opening_hours": {
         "open": "",
@@ -8077,7 +8193,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/bana-bento-tra-sua-com-trua-nguyen-thong.uq7hdo"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bana_Bento_-_Trà_Sữa_&_Cơm_Trưa_-_Nguyễn_Thông.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bana_Bento_-_Trà_Sữa_&_Cơm_Trưa_-_Nguyễn_Thông.jpg",
+      "location": {
+        "lat": 10.784274,
+        "lng": 106.678627
+      }
     },
     {
       "id": "184976",
@@ -8162,7 +8282,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/tiemcuamin-an-vat-duong-quang-ham"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Tiemcuamin_-_Ăn_Vặt_-_Dương_Quảng_Hàm.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Tiemcuamin_-_Ăn_Vặt_-_Dương_Quảng_Hàm.jpg",
+      "location": {
+        "lat": 10.840754,
+        "lng": 106.660342
+      }
     },
     {
       "id": "190211",
@@ -8170,7 +8294,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/com-tam-thuyen-com-tam-doan-gioi.v0ecqw",
       "delivery_id": "190211",
       "address": "25/19 Đoàn Giỏi, P.Sơn Kỳ, Tân Phú, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvefw2towpl36",
       "opening_hours": {
         "open": "",
@@ -8199,7 +8323,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/com-tam-thuyen-com-tam-doan-gioi.v0ecqw"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Tấm_Thuyên_-_Cơm_Tấm_-_Đoàn_Giỏi.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Tấm_Thuyên_-_Cơm_Tấm_-_Đoàn_Giỏi.jpg",
+      "location": {
+        "lat": 10.764715,
+        "lng": 106.600779
+      }
     },
     {
       "id": "184888",
@@ -8207,7 +8335,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/quan-an-81-com-tam-bun-thit-nuong-dien-bien-phu.ckezly",
       "delivery_id": "184888",
       "address": "81 Điện Biên Phủ, P. 15, Bình Thạnh, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve83zhknfd88",
       "opening_hours": {
         "open": "",
@@ -8236,7 +8364,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/quan-an-81-com-tam-bun-thit-nuong-dien-bien-phu.ckezly"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Ăn_81_-_Cơm_Tấm_&_Bún_Thịt_Nướng_-_Điện_Biên_Phủ.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Ăn_81_-_Cơm_Tấm_&_Bún_Thịt_Nướng_-_Điện_Biên_Phủ.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "187476",
@@ -8337,7 +8469,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/bun-xiem-lo-kien-tuong"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Xiêm_Lo_Kiến_Tường.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Xiêm_Lo_Kiến_Tường.jpg",
+      "location": {
+        "lat": 10.752719,
+        "lng": 106.589787
+      }
     },
     {
       "id": "185600",
@@ -8345,7 +8481,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/com-trua-van-phong-an-uong-pho-quang.czag3o",
       "delivery_id": "185600",
       "address": "61 Phổ Quang, P. 2, Tân Bình, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvebk87rcuc45",
       "opening_hours": {
         "open": "",
@@ -8374,7 +8510,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/com-trua-van-phong-an-uong-pho-quang.czag3o"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Trưa_Văn_Phòng_-_Ăn_Uống_-_Phổ_Quang.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Trưa_Văn_Phòng_-_Ăn_Uống_-_Phổ_Quang.jpg",
+      "location": {
+        "lat": 10.750574,
+        "lng": 106.63049
+      }
     },
     {
       "id": "186762",
@@ -8411,7 +8551,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/panda-com-van-phong-dinh-phong-phu"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Panda__-_Cơm_Văn_Phòng_-_Đình_Phong_Phú.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Panda__-_Cơm_Văn_Phòng_-_Đình_Phong_Phú.jpg",
+      "location": {
+        "lat": 10.83111,
+        "lng": 106.783704
+      }
     },
     {
       "id": "189471",
@@ -8528,7 +8672,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/ga-bay-com-ga-pham-van-chieu.ovyago"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Gà_Bay__-_Cơm_Gà_-_Phạm_Văn_Chiêu.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Gà_Bay__-_Cơm_Gà_-_Phạm_Văn_Chiêu.jpg",
+      "location": {
+        "lat": 10.840754,
+        "lng": 106.660342
+      }
     },
     {
       "id": "184342",
@@ -8536,7 +8684,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/hem-32-chan-ga-tron-sa-tac-me-linh.zn0giw",
       "delivery_id": "184342",
       "address": "32/19 Mê Linh, P. 19, Bình Thạnh, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve9gmkwf4p0a",
       "opening_hours": {
         "open": "",
@@ -8565,7 +8713,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/hem-32-chan-ga-tron-sa-tac-me-linh.zn0giw"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Hẻm_32_-_Chân_Gà_Trộn_Sả_Tắc_-_Mê_Linh.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Hẻm_32_-_Chân_Gà_Trộn_Sả_Tắc_-_Mê_Linh.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "181715",
@@ -8602,7 +8754,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/bun-moc-hang-xanh-com-trua-dien-bien-phu.1gf67s"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Mọc_Hàng_Xanh_-_Cơm_Trưa_-_Điện_Biên_Phủ.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Mọc_Hàng_Xanh_-_Cơm_Trưa_-_Điện_Biên_Phủ.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "188048",
@@ -8610,7 +8766,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/hoang-ky-com-binh-dan-duong-van-duong.pqtxba",
       "delivery_id": "188048",
       "address": "163 Dương Văn Dương, P. Tân Quý, Tân Phú, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvedgs9fo3oe7",
       "opening_hours": {
         "open": "",
@@ -8639,7 +8795,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/hoang-ky-com-binh-dan-duong-van-duong.pqtxba"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Hoàng_Ký_-_Cơm_Bình_Dân_-_Dương_Văn_Dương.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Hoàng_Ký_-_Cơm_Bình_Dân_-_Dương_Văn_Dương.jpg",
+      "location": {
+        "lat": 10.781358,
+        "lng": 106.622158
+      }
     },
     {
       "id": "189868",
@@ -8676,7 +8836,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/com-tam-thu-bom-com-tam-au-duong-lan.mtek8e"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Tấm_Thu_Bờm_-_Cơm_Tấm_-_Âu_Dương_Lân.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Cơm_Tấm_Thu_Bờm_-_Cơm_Tấm_-_Âu_Dương_Lân.jpg",
+      "location": {
+        "lat": 10.773633,
+        "lng": 106.697483
+      }
     },
     {
       "id": "181923",
@@ -8684,7 +8848,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/nga-tung-com-le-van-luong.0cwlcv",
       "delivery_id": "181923",
       "address": "239 Lê Văn Lương, Phường Tân Kiểng, Quận 7, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve31fgq0ex9e",
       "opening_hours": {
         "open": "",
@@ -8713,7 +8877,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/nga-tung-com-le-van-luong.0cwlcv"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Nga_Tùng__-_Cơm_-_Lê_Văn_Lương.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Nga_Tùng__-_Cơm_-_Lê_Văn_Lương.jpg",
+      "location": {
+        "lat": 10.778912,
+        "lng": 106.64922
+      }
     },
     {
       "id": "183869",
@@ -8750,7 +8918,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/hong-ky-bun-ca-chau-doc-thanh-da.dhswuk"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Hồng_Ký__-_Bún_Cá_Châu_Đốc__-_Thanh_Đa.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Hồng_Ký__-_Bún_Cá_Châu_Đốc__-_Thanh_Đa.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "185346",
@@ -8908,7 +9080,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/bun-nem-nuong-cha-gio-ni-su-huynh-lien",
       "delivery_id": "186886",
       "address": "188 Ni Sư Huỳnh Liên, P. 10, Tân Bình, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvebazt9sckaf",
       "opening_hours": {
         "open": "11:15",
@@ -8985,7 +9157,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/bun-nem-nuong-cha-gio-ni-su-huynh-lien"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Nem_Nướng_Chả_Giò_-_Ni_Sư_Huỳnh_Liên.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bún_Nem_Nướng_Chả_Giò_-_Ni_Sư_Huỳnh_Liên.jpg",
+      "location": {
+        "lat": 10.81691,
+        "lng": 106.63832
+      }
     },
     {
       "id": "187402",
@@ -9454,7 +9630,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/the-mechanic-healthy-food"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_The_Mechanic_-_Healthy_Food.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_The_Mechanic_-_Healthy_Food.jpg",
+      "location": {
+        "lat": 10.777353,
+        "lng": 106.698089
+      }
     },
     {
       "id": "187353",
@@ -10131,7 +10311,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/quan-an-bun-bo-gia-hoi-bun-bo-phan-van-hon.nldeyd"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Ăn_Bún_Bò_Gia_Hội_-_Bún_Bò_-_Phan_Văn_Hớn.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Quán_Ăn_Bún_Bò_Gia_Hội_-_Bún_Bò_-_Phan_Văn_Hớn.jpg",
+      "location": {
+        "lat": 10.883824,
+        "lng": 106.56819
+      }
     },
     {
       "id": "184909",
@@ -10139,7 +10323,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/el-zee-food-beer-nguyen-bieu.jptjtd",
       "delivery_id": "184909",
       "address": "175 Nguyễn Biểu, P. 2, Quận 5, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsveaguxddxg82",
       "opening_hours": {
         "open": "",
@@ -10168,7 +10352,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/el-zee-food-beer-nguyen-bieu.jptjtd"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_El’zee_-_Food_&_Beer_-_Nguyễn_Biểu.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_El’zee_-_Food_&_Beer_-_Nguyễn_Biểu.jpg",
+      "location": {
+        "lat": 10.7542491,
+        "lng": 106.6842694
+      }
     },
     {
       "id": "186555",
@@ -10176,7 +10364,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/quan-an-47-dat-thanh-do-an-dat-thanh.sy46ja",
       "delivery_id": "186555",
       "address": "47 Đất Thánh, P. 6, Tân Bình, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsveafz0o2vt4d",
       "opening_hours": {
         "open": "",
@@ -10205,7 +10393,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/quan-an-47-dat-thanh-do-an-dat-thanh.sy46ja"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_QUÁN_ĂN_47_ĐẤT_THÁNH_-_ĐỒ_ĂN_-_ĐẤT_THÁNH.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_QUÁN_ĂN_47_ĐẤT_THÁNH_-_ĐỒ_ĂN_-_ĐẤT_THÁNH.jpg",
+      "location": {
+        "lat": 10.81691,
+        "lng": 106.63832
+      }
     },
     {
       "id": "185129",
@@ -10213,7 +10405,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/mi-tron-chu-to-mi-tron-le-thanh-ton.jeordu",
       "delivery_id": "185129",
       "address": "02 Lê Thánh Tôn, P. Bến Nghé, Quận 1, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsveasi6bv7o3d",
       "opening_hours": {
         "open": "",
@@ -10242,7 +10434,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/mi-tron-chu-to-mi-tron-le-thanh-ton.jeordu"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Mì_Trộn_Chú_Tô_-_Mì_Trộn_-_Lê_Thánh_Tôn.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Mì_Trộn_Chú_Tô_-_Mì_Trộn_-_Lê_Thánh_Tôn.jpg",
+      "location": {
+        "lat": 10.777353,
+        "lng": 106.698089
+      }
     },
     {
       "id": "187347",
@@ -10295,7 +10491,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/lion-quan-bun-mam-mien-tay-huynh-man-dat.ebcr6o"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Lion_Quán_-_Bún_Mắm_Miền_Tây_-_Huỳnh_Mẫn_Đạt.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Lion_Quán_-_Bún_Mắm_Miền_Tây_-_Huỳnh_Mẫn_Đạt.jpg",
+      "location": {
+        "lat": 10.808551,
+        "lng": 106.70315
+      }
     },
     {
       "id": "188707",
@@ -10303,7 +10503,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/go-tmpp45-banh-mi-chao-bo-bit-tet-duong-so-17.rcsfxx",
       "delivery_id": "188707",
       "address": "52/21a Đường Số 17, P.Tân Thuận Tây, Quận 7, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvefmevu2s90b",
       "opening_hours": {
         "open": "",
@@ -10332,7 +10532,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/go-tmpp45-banh-mi-chao-bo-bit-tet-duong-so-17.rcsfxx"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Go_TMPP45_-_Bánh_Mì_Chảo_&_Bò_Bít_Tết_-_Đường_Số_17.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Go_TMPP45_-_Bánh_Mì_Chảo_&_Bò_Bít_Tết_-_Đường_Số_17.jpg",
+      "location": {
+        "lat": 10.735719,
+        "lng": 106.727203
+      }
     },
     {
       "id": "189049",
@@ -10340,7 +10544,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/mt-dimsum-ha-cao-huynh-tan-phat.s5utay",
       "delivery_id": "189049",
       "address": "1135/66/1 Huỳnh Tấn Phát, P. Phú Thuận, Quận 7, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsveeo6xwvk4d9",
       "opening_hours": {
         "open": "",
@@ -10577,7 +10781,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/mt-dimsum-ha-cao-huynh-tan-phat.s5utay"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_MT_Dimsum_-_Há_Cảo_-_Huỳnh_Tấn_Phát.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_MT_Dimsum_-_Há_Cảo_-_Huỳnh_Tấn_Phát.jpg",
+      "location": {
+        "lat": 10.735719,
+        "lng": 106.727203
+      }
     },
     {
       "id": "185660",
@@ -10585,7 +10793,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/banh-canh-banh-canh-cha-ca-phan-rang-duong-t3.exuknl",
       "delivery_id": "185660",
       "address": "56 Đường T3, P. Tây Thạnh, Tân Phú, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve8hz353no4b",
       "opening_hours": {
         "open": "",
@@ -10614,7 +10822,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/banh-canh-banh-canh-cha-ca-phan-rang-duong-t3.exuknl"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Bánh_Canh_-_Bánh_Canh_Chả_Cá_Phan_Rang_-_Đường_T3.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Bánh_Canh_-_Bánh_Canh_Chả_Cá_Phan_Rang_-_Đường_T3.jpg",
+      "location": {
+        "lat": 10.981753,
+        "lng": 106.649651
+      }
     },
     {
       "id": "185052",
@@ -10622,7 +10834,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/thien-thao-bun-bo-hue-bun-bo-hue-dong-hung-thuan-11.sfxoho",
       "delivery_id": "185052",
       "address": "65 Đông Hưng Thuận 11, P. Đông Hưng Thuận, Quận 12, TP. HCM",
-      "rating": 5.0,
+      "rating": 5,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsve6otegbkpde",
       "opening_hours": {
         "open": "",
@@ -10651,7 +10863,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/thien-thao-bun-bo-hue-bun-bo-hue-dong-hung-thuan-11.sfxoho"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Thiên_Thảo_Bún_Bò_Huế_-_Bún_Bò_Huế_-_Đông_Hưng_Thuận_11.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Thiên_Thảo_Bún_Bò_Huế_-_Bún_Bò_Huế_-_Đông_Hưng_Thuận_11.jpg",
+      "location": {
+        "lat": 10.875026,
+        "lng": 106.65772
+      }
     },
     {
       "id": "188888",
@@ -10659,7 +10875,7 @@
       "url": "https://shopeefood.vn/ho-chi-minh/kathai-an-trua-van-phong-com-van-phong-duong-815-ta-quang-buu.yhls2y",
       "delivery_id": "188888",
       "address": "32 Đường 815 Tạ Quang Bửu, P.5, Quận 8, TP. HCM",
-      "rating": 0.0,
+      "rating": 0,
       "cover_image": "https://down-zl-vn.img.susercontent.com/vn-11134513-7r98o-lsvefnki566x7d",
       "opening_hours": {
         "open": "",
@@ -10688,7 +10904,11 @@
           "restaurant_url": "https://shopeefood.vn/ho-chi-minh/kathai-an-trua-van-phong-com-van-phong-duong-815-ta-quang-buu.yhls2y"
         }
       ],
-      "cover_local": "data_v10\\images\\_covers\\shop_Kathai_Ăn_Trưa_Văn_Phòng_-_Cơm_Văn_Phòng_-_Đường_815_Tạ_Quan.jpg"
+      "cover_local": "data_v10\\images\\_covers\\shop_Kathai_Ăn_Trưa_Văn_Phòng_-_Cơm_Văn_Phòng_-_Đường_815_Tạ_Quan.jpg",
+      "location": {
+        "lat": 10.752736,
+        "lng": 106.609675
+      }
     }
   ]
 }
