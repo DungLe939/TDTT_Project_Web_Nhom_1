@@ -1,0 +1,1298 @@
+{
+  "communities": {
+    "0": [
+      "esm_index_esm_createcategory",
+      "esm_index_esm_createcategoryref",
+      "esm_index_esm_createfooditem",
+      "esm_index_esm_createfooditemref",
+      "esm_index_esm_createshop",
+      "esm_index_esm_createshopref",
+      "esm_index_esm_getfooddetail",
+      "esm_index_esm_getfooddetailref",
+      "esm_index_esm_getshopdetail",
+      "esm_index_esm_getshopdetailref",
+      "esm_index_esm_listcategories",
+      "esm_index_esm_listcategoriesref",
+      "esm_index_esm_listfoods",
+      "esm_index_esm_listfoodsbycategory",
+      "esm_index_esm_listfoodsbycategoryref",
+      "esm_index_esm_listfoodsref",
+      "esm_index_esm_listshops",
+      "esm_index_esm_listshopsref",
+      "esm_index_esm_usecreatecategory",
+      "esm_index_esm_usecreatefooditem",
+      "esm_index_esm_usecreateshop",
+      "esm_index_esm_usegetfooddetail",
+      "esm_index_esm_usegetshopdetail",
+      "esm_index_esm_uselistcategories",
+      "esm_index_esm_uselistfoods",
+      "esm_index_esm_uselistfoodsbycategory",
+      "esm_index_esm_uselistshops",
+      "pages_foodmarket_fetchbycategory",
+      "pages_foodmarket_fetchdata",
+      "pages_foodmarket_formatprice",
+      "pages_foodmarket_handleclearcategory",
+      "pages_foodmarket_openfooddetail",
+      "pages_foodmarket_openshopdetail",
+      "pages_testdataconnect_fetchall",
+      "pages_testdataconnect_handleseeddata",
+      "react_index_cjs_reffactory",
+      "scripts_seed_dataconnect_prod_geterrormessage",
+      "scripts_seed_dataconnect_prod_getrequiredenv",
+      "scripts_seed_dataconnect_prod_main",
+      "scripts_seed_dataconnect_prod_makefoodkey",
+      "scripts_seed_dataconnect_prod_toslug",
+      "tdtt_nestjs_nhom_1_scripts_seed_dataconnect_prod_mjs",
+      "tdtt_nestjs_nhom_1_src_dataconnect_admin_generated_esm_index_esm_js",
+      "tdtt_reactjs_nhom_1_src_dataconnect_generated_esm_index_esm_js",
+      "tdtt_reactjs_nhom_1_src_dataconnect_generated_react_esm_index_esm_js",
+      "tdtt_reactjs_nhom_1_src_dataconnect_generated_react_index_cjs_js",
+      "tdtt_reactjs_nhom_1_src_pages_foodmarket_tsx",
+      "tdtt_reactjs_nhom_1_src_pages_testdataconnect_tsx"
+    ],
+    "1": [
+      "components_userinputform_handleadduser",
+      "components_userinputform_handlegetlocation",
+      "components_userinputform_handleremoveuser",
+      "components_userinputform_saveedituser",
+      "components_userinputform_startedituser",
+      "dailyplanview_dailyplanview_calculatecosts",
+      "dailyplanview_dailyplanview_getactiveplan",
+      "dailyplanview_dailyplanview_getsortedmeals",
+      "dailyplanview_dailyplanview_handleaddsnack",
+      "dailyplanview_dailyplanview_handleconfirmselectedswap",
+      "dailyplanview_dailyplanview_handledishselect",
+      "dailyplanview_dailyplanview_handleopenswap",
+      "dailyplanview_dailyplanview_handleshowdetail",
+      "dailyplanview_dailyplanview_handleshowmap",
+      "pages_gacha_handlespin",
+      "schedulepage_schedulepage_getmonday",
+      "schedulepage_schedulepage_handlefilterclick",
+      "schedulepage_schedulepage_handlegeneratesubmit",
+      "schedulepage_schedulepage_handlenextweek",
+      "schedulepage_schedulepage_handleprevweek",
+      "schedulepage_schedulepage_handleupdateplan",
+      "tdtt_reactjs_nhom_1_src_common_components_ui_alert_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_components_userinputform_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_utils_math_utils_ts",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_dailyplanview_dailyplanview_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_pages_schedulepage_schedulepage_tsx",
+      "tdtt_reactjs_nhom_1_src_pages_gacha_tsx",
+      "ui_alert_alert",
+      "ui_alert_cn",
+      "utils_math_utils_formatprice",
+      "utils_math_utils_generateid",
+      "utils_math_utils_topercent"
+    ],
+    "2": [
+      "adminquestspanel_createachievementform_handlesubmit",
+      "adminquestspanel_createrewardform_handlesubmit",
+      "services_achievementservice_createachievement",
+      "services_achievementservice_createreward",
+      "services_achievementservice_getachievementsforuser",
+      "services_achievementservice_getallrewards",
+      "services_achievementservice_getuserrewards",
+      "services_achievementservice_getuserstats",
+      "services_achievementservice_redeemvoucher",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_adminquestspanel_adminquestspanel_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_adminquestspanel_createachievementform_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_adminquestspanel_createrewardform_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_vouchertab_vouchertab_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_quests_services_achievementservice_ts",
+      "vouchertab_vouchertab_dismissed_key",
+      "vouchertab_vouchertab_handledismiss",
+      "vouchertab_vouchertab_handleredeem",
+      "vouchertab_vouchertab_handleselect",
+      "vouchertab_vouchertab_isexpiredtimestamp"
+    ],
+    "3": [
+      "createpostform_createpostform_addemoji",
+      "createpostform_createpostform_compressimage",
+      "createpostform_createpostform_handleimagechange",
+      "createpostform_createpostform_handlesubmit",
+      "createpostform_createpostform_loadrestaurantoptions",
+      "createpostform_createpostform_normalizeaddress",
+      "createpostform_createpostform_removephoto",
+      "pages_admin_onsubmit",
+      "schedulefiltermodal_schedulefiltermodal_calculatedays",
+      "schedulefiltermodal_schedulefiltermodal_getinitialdata",
+      "schedulefiltermodal_schedulefiltermodal_handlesubmit",
+      "schedulefiltermodal_schedulefiltermodal_handletastechange",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_createpostform_createpostform_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_schedulefiltermodal_schedulefiltermodal_tsx",
+      "tdtt_reactjs_nhom_1_src_pages_admin_tsx"
+    ],
+    "4": [
+      "scheduler_scheduler_service_schedulerservice",
+      "scheduler_scheduler_service_schedulerservice_constructor",
+      "scheduler_scheduler_service_schedulerservice_createtravelplan",
+      "scheduler_scheduler_service_schedulerservice_getcoordsfromkeyword",
+      "scheduler_scheduler_service_schedulerservice_getshortestpath",
+      "scheduler_scheduler_service_schedulerservice_processsearchlocation",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_scheduler_service_ts",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_utils_fake_data_ts",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_utils_fetch_locationiq_ts",
+      "utils_fake_data_fakeremainingdata",
+      "utils_fetch_locationiq_fetchnearbyrestaurants"
+    ],
+    "5": [
+      "authguardcard_authguardcard_authguardcard",
+      "context_authcontext_authprovider",
+      "context_authcontext_mapfirebaseuser",
+      "context_authcontext_useauth",
+      "hooks_useblog_useblog",
+      "pages_adminlogin_adminlogin",
+      "tdtt_reactjs_nhom_1_src_context_authcontext_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_auth_context_authcontext_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_authguardcard_authguardcard_tsx",
+      "tdtt_reactjs_nhom_1_src_modules_quests_hooks_useblog_ts",
+      "tdtt_reactjs_nhom_1_src_pages_adminlogin_tsx"
+    ],
+    "6": [
+      "dataconnect_admin_generated_index_cjs_createcategory",
+      "dataconnect_admin_generated_index_cjs_createfooditem",
+      "dataconnect_admin_generated_index_cjs_createshop",
+      "dataconnect_admin_generated_index_cjs_getfooddetail",
+      "dataconnect_admin_generated_index_cjs_getshopdetail",
+      "dataconnect_admin_generated_index_cjs_listcategories",
+      "dataconnect_admin_generated_index_cjs_listfoods",
+      "dataconnect_admin_generated_index_cjs_listfoodsbycategory",
+      "dataconnect_admin_generated_index_cjs_listshops",
+      "tdtt_nestjs_nhom_1_src_dataconnect_admin_generated_index_cjs_js"
+    ],
+    "7": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_sidebar_tsx",
+      "ui_sidebar_cn",
+      "ui_sidebar_handlekeydown",
+      "ui_sidebar_sidebarfooter",
+      "ui_sidebar_sidebarheader",
+      "ui_sidebar_sidebarmenu",
+      "ui_sidebar_sidebarmenubutton",
+      "ui_sidebar_sidebarmenuitem",
+      "ui_sidebar_sidebarseparator",
+      "ui_sidebar_usesidebar"
+    ],
+    "8": [
+      "dataconnect_generated_index_cjs_createcategoryref",
+      "dataconnect_generated_index_cjs_createfooditemref",
+      "dataconnect_generated_index_cjs_createshopref",
+      "dataconnect_generated_index_cjs_getfooddetailref",
+      "dataconnect_generated_index_cjs_getshopdetailref",
+      "dataconnect_generated_index_cjs_listcategoriesref",
+      "dataconnect_generated_index_cjs_listfoodsbycategoryref",
+      "dataconnect_generated_index_cjs_listfoodsref",
+      "dataconnect_generated_index_cjs_listshopsref",
+      "tdtt_reactjs_nhom_1_src_dataconnect_generated_index_cjs_js"
+    ],
+    "9": [
+      "services_blogcontroller_addcomment",
+      "services_blogcontroller_createpost",
+      "services_blogcontroller_getcachedrestaurants",
+      "services_blogcontroller_getposts",
+      "services_blogcontroller_getrestaurants",
+      "services_blogcontroller_setcachedrestaurants",
+      "services_blogcontroller_togglelikecomment",
+      "services_blogcontroller_togglelikepost",
+      "services_blogcontroller_visitrestaurant",
+      "tdtt_reactjs_nhom_1_src_modules_quests_services_blogcontroller_ts"
+    ],
+    "10": [
+      "postcard_postcard_addemoji",
+      "postcard_postcard_formatrelativetime",
+      "postcard_postcard_getuser",
+      "postcard_postcard_handlefilechange",
+      "postcard_postcard_handlekeydown",
+      "postcard_postcard_handlelike",
+      "postcard_postcard_handlephotoupload",
+      "postcard_postcard_handlesubmitcomment",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_postcard_postcard_tsx"
+    ],
+    "11": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_dropdown_menu_tsx",
+      "ui_dropdown_menu_cn",
+      "ui_dropdown_menu_dropdownmenucontent",
+      "ui_dropdown_menu_dropdownmenuitem",
+      "ui_dropdown_menu_dropdownmenuportal",
+      "ui_dropdown_menu_dropdownmenuradiogroup",
+      "ui_dropdown_menu_dropdownmenuradioitem",
+      "ui_dropdown_menu_dropdownmenutrigger"
+    ],
+    "12": [
+      "pages_smartmenu_cleartext",
+      "pages_smartmenu_copytoclipboard",
+      "pages_smartmenu_handlemousemove",
+      "pages_smartmenu_handletextareamousemove",
+      "pages_smartmenu_handletranslate",
+      "pages_smartmenu_loadhistoryitem",
+      "pages_smartmenu_scrollhistory",
+      "tdtt_reactjs_nhom_1_src_pages_smartmenu_tsx"
+    ],
+    "13": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_alert_dialog_tsx",
+      "ui_alert_dialog_alertdialogaction",
+      "ui_alert_dialog_alertdialogcancel",
+      "ui_alert_dialog_alertdialogdescription",
+      "ui_alert_dialog_alertdialogportal",
+      "ui_alert_dialog_alertdialogtrigger",
+      "ui_alert_dialog_cn"
+    ],
+    "14": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_breadcrumb_tsx",
+      "ui_breadcrumb_breadcrumb",
+      "ui_breadcrumb_breadcrumbellipsis",
+      "ui_breadcrumb_breadcrumblink",
+      "ui_breadcrumb_breadcrumbpage",
+      "ui_breadcrumb_breadcrumbseparator",
+      "ui_breadcrumb_cn"
+    ],
+    "15": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_context_menu_tsx",
+      "ui_context_menu_cn",
+      "ui_context_menu_contextmenugroup",
+      "ui_context_menu_contextmenuportal",
+      "ui_context_menu_contextmenuradiogroup",
+      "ui_context_menu_contextmenuradioitem",
+      "ui_context_menu_contextmenutrigger"
+    ],
+    "16": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_pagination_tsx",
+      "ui_pagination_cn",
+      "ui_pagination_pagination",
+      "ui_pagination_paginationcontent",
+      "ui_pagination_paginationellipsis",
+      "ui_pagination_paginationitem",
+      "ui_pagination_paginationnext"
+    ],
+    "17": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_select_tsx",
+      "ui_select_selectitem",
+      "ui_select_selectlabel",
+      "ui_select_selectscrolldownbutton",
+      "ui_select_selectscrollupbutton",
+      "ui_select_selectseparator",
+      "ui_select_selecttrigger"
+    ],
+    "18": [
+      "pages_auth_getfirebaseerrormessage",
+      "pages_auth_handlegithublogin",
+      "pages_auth_handlegooglelogin",
+      "pages_auth_handlesociallogin",
+      "pages_auth_handlesubmit",
+      "tdtt_reactjs_nhom_1_src_modules_auth_pages_auth_tsx",
+      "tdtt_reactjs_nhom_1_src_pages_auth_tsx"
+    ],
+    "19": [
+      "components_mapview_formatprice",
+      "components_mapview_mapevents",
+      "components_mapview_mapupdater",
+      "components_mapview_mapview",
+      "components_mapview_routelayer",
+      "components_mapview_topercent",
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_components_mapview_tsx"
+    ],
+    "20": [
+      "pages_foodscan_handlecapture",
+      "pages_foodscan_handledrag",
+      "pages_foodscan_handledrop",
+      "pages_foodscan_handlefilechange",
+      "pages_foodscan_handleresize",
+      "pages_foodscan_reset",
+      "tdtt_reactjs_nhom_1_src_pages_foodscan_tsx"
+    ],
+    "21": [
+      "scheduler_scheduler_controller_schedulercontroller",
+      "scheduler_scheduler_controller_schedulercontroller_constructor",
+      "scheduler_scheduler_controller_schedulercontroller_generateplan",
+      "scheduler_scheduler_controller_schedulercontroller_getroute",
+      "scheduler_scheduler_controller_schedulercontroller_searchlocation",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_scheduler_controller_ts"
+    ],
+    "22": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_drawer_tsx",
+      "ui_drawer_drawerdescription",
+      "ui_drawer_drawerfooter",
+      "ui_drawer_drawerheader",
+      "ui_drawer_draweroverlay",
+      "ui_drawer_drawertitle"
+    ],
+    "23": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_form_tsx",
+      "ui_form_cn",
+      "ui_form_formcontrol",
+      "ui_form_formdescription",
+      "ui_form_formmessage",
+      "ui_form_useformfield"
+    ],
+    "24": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_navigation_menu_tsx",
+      "ui_navigation_menu_cn",
+      "ui_navigation_menu_navigationmenu",
+      "ui_navigation_menu_navigationmenucontent",
+      "ui_navigation_menu_navigationmenulist",
+      "ui_navigation_menu_navigationmenutrigger"
+    ],
+    "25": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_sheet_tsx",
+      "ui_sheet_sheetdescription",
+      "ui_sheet_sheetfooter",
+      "ui_sheet_sheetheader",
+      "ui_sheet_sheetoverlay",
+      "ui_sheet_sheettitle"
+    ],
+    "26": [
+      "adminquestspanel_adminformatoms_fieldlabel",
+      "adminquestspanel_adminformatoms_qinput",
+      "adminquestspanel_adminformatoms_qselect",
+      "adminquestspanel_adminformatoms_qtextarea",
+      "adminquestspanel_adminformatoms_statusbanner",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_adminquestspanel_adminformatoms_tsx"
+    ],
+    "27": [
+      "services_dbservice_clearstore",
+      "services_dbservice_getallitems",
+      "services_dbservice_getcount",
+      "services_dbservice_initdb",
+      "services_dbservice_saveitems",
+      "tdtt_reactjs_nhom_1_src_modules_quests_services_dbservice_ts"
+    ],
+    "28": [
+      "tdtt_reactjs_nhom_1_src_modules_scanning_utils_scan_content_ts",
+      "utils_scan_content_parsecommalist",
+      "utils_scan_content_parsescancontent",
+      "utils_scan_content_removediacritics",
+      "utils_scan_content_tolistitems",
+      "utils_scan_content_toparagraphs"
+    ],
+    "29": [
+      "services_api_ensurescanapiconfigured",
+      "services_api_extractpredictpayload",
+      "services_api_isrecord",
+      "services_api_normalizepredictcontent",
+      "services_api_normalizepredictstatus",
+      "tdtt_reactjs_nhom_1_src_services_api_ts"
+    ],
+    "30": [
+      "scripts_seed_data_delay",
+      "scripts_seed_data_gql",
+      "scripts_seed_data_main",
+      "scripts_seed_data_mjs",
+      "scripts_seed_data_toslug"
+    ],
+    "31": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_carousel_tsx",
+      "ui_carousel_carousel",
+      "ui_carousel_carouselnext",
+      "ui_carousel_cn",
+      "ui_carousel_usecarousel"
+    ],
+    "32": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_dialog_tsx",
+      "ui_dialog_cn",
+      "ui_dialog_dialogdescription",
+      "ui_dialog_dialogheader",
+      "ui_dialog_dialogoverlay"
+    ],
+    "33": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_table_tsx",
+      "ui_table_cn",
+      "ui_table_table",
+      "ui_table_tablebody",
+      "ui_table_tableheader"
+    ],
+    "34": [
+      "pages_profile_getprovider",
+      "pages_profile_handlelogout",
+      "pages_profile_handleresetpassword",
+      "pages_profile_handleupdatename",
+      "tdtt_reactjs_nhom_1_src_modules_auth_pages_profile_tsx"
+    ],
+    "35": [
+      "services_blogactivityservice_getactivitylogs",
+      "services_blogactivityservice_logactivity",
+      "services_blogactivityservice_registerachievementhandler",
+      "services_blogactivityservice_resetactivitylogs",
+      "tdtt_reactjs_nhom_1_src_modules_quests_services_blogactivityservice_ts"
+    ],
+    "36": [
+      "src_app_controller_appcontroller",
+      "src_app_controller_appcontroller_constructor",
+      "src_app_controller_appcontroller_gethello",
+      "tdtt_nestjs_nhom_1_src_app_controller_ts"
+    ],
+    "37": [
+      "algorithms_k_means_clusteringhelper",
+      "algorithms_k_means_clusteringhelper_clusteringstep",
+      "algorithms_k_means_clusteringhelper_getdistance",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_algorithms_k_means_ts"
+    ],
+    "38": [
+      "algorithms_sorting_sortinghelper",
+      "algorithms_sorting_sortinghelper_getbestdish",
+      "algorithms_sorting_sortinghelper_sortforsession",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_algorithms_sorting_ts"
+    ],
+    "39": [
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_utils_gemini_generate_schelude_ts",
+      "utils_gemini_generate_schelude_geminigenerateschedulehelper",
+      "utils_gemini_generate_schelude_geminigenerateschedulehelper_constructor",
+      "utils_gemini_generate_schelude_geminigenerateschedulehelper_finalizeschedulewithai"
+    ],
+    "40": [
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_utils_gemini_scoring_ts",
+      "utils_gemini_scoring_geminiscoringhelper",
+      "utils_gemini_scoring_geminiscoringhelper_constructor",
+      "utils_gemini_scoring_geminiscoringhelper_scorerestaurantswithai"
+    ],
+    "41": [
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_utils_scoring_ts",
+      "utils_scoring_scoringhelper",
+      "utils_scoring_scoringhelper_constructor",
+      "utils_scoring_scoringhelper_generatefinalplan"
+    ],
+    "42": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_input_otp_tsx",
+      "ui_input_otp_cn",
+      "ui_input_otp_inputotp",
+      "ui_input_otp_inputotpgroup"
+    ],
+    "43": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_menubar_tsx",
+      "ui_menubar_cn",
+      "ui_menubar_menubarradiogroup",
+      "ui_menubar_menubarradioitem"
+    ],
+    "44": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_toggle_group_tsx",
+      "ui_toggle_group_cn",
+      "ui_toggle_group_togglegroup",
+      "ui_toggle_group_togglegroupitem"
+    ],
+    "45": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_tooltip_tsx",
+      "ui_tooltip_tooltip",
+      "ui_tooltip_tooltipcontent",
+      "ui_tooltip_tooltipprovider"
+    ],
+    "46": [
+      "questscard_questscard_questcard",
+      "questscard_questscard_rewardcolors",
+      "questscard_questscard_rewardicon",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_questscard_questscard_tsx"
+    ],
+    "47": [
+      "constants_admin_constants_rewardtypebadge",
+      "constants_admin_constants_rewardtypeicon",
+      "constants_admin_constants_rewardvaluelabel",
+      "tdtt_reactjs_nhom_1_src_modules_quests_constants_admin_constants_tsx"
+    ],
+    "48": [
+      "addsnackmodal_addsnackmodal_calculatedistance",
+      "addsnackmodal_addsnackmodal_fetchrealroutes",
+      "addsnackmodal_addsnackmodal_handleconfirm",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_addsnackmodal_addsnackmodal_tsx"
+    ],
+    "49": [
+      "mapmodal_mapmodal_getdestcoords",
+      "mapmodal_mapmodal_handlegetlocation",
+      "mapmodal_mapmodal_recentermap",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_mapmodal_mapmodal_tsx"
+    ],
+    "50": [
+      "src_app_service_appservice",
+      "src_app_service_appservice_gethello",
+      "tdtt_nestjs_nhom_1_src_app_service_ts"
+    ],
+    "51": [
+      "middlewares_guest_session_middleware_guestsessionmiddleware",
+      "middlewares_guest_session_middleware_guestsessionmiddleware_use",
+      "tdtt_nestjs_nhom_1_src_common_middlewares_guest_session_middleware_ts"
+    ],
+    "52": [
+      "scheduler_scheduler_module_schedulermodule",
+      "scheduler_scheduler_module_schedulermodule_configure",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_scheduler_module_ts"
+    ],
+    "53": [
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_utils_raw_filter_ts",
+      "utils_raw_filter_rawfilterhelper",
+      "utils_raw_filter_rawfilterhelper_rawdata"
+    ],
+    "54": [
+      "src_app_app",
+      "tdtt_reactjs_nhom_1_src_app_tsx",
+      "tdtt_reactjs_nhom_1_src_main_tsx"
+    ],
+    "55": [
+      "src_errorboundary_componentdidcatch",
+      "src_errorboundary_getderivedstatefromerror",
+      "tdtt_reactjs_nhom_1_src_errorboundary_tsx"
+    ],
+    "56": [
+      "components_layout_ispathactive",
+      "components_layout_renderhorizontalnavitem",
+      "tdtt_reactjs_nhom_1_src_common_components_layout_tsx"
+    ],
+    "57": [
+      "components_sidebar_handlelogout",
+      "components_sidebar_ispathactive",
+      "tdtt_reactjs_nhom_1_src_common_components_sidebar_tsx"
+    ],
+    "58": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_avatar_tsx",
+      "ui_avatar_avatar",
+      "ui_avatar_avatarfallback"
+    ],
+    "59": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_chart_tsx",
+      "ui_chart_cn",
+      "ui_chart_usechart"
+    ],
+    "60": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_collapsible_tsx",
+      "ui_collapsible_collapsiblecontent",
+      "ui_collapsible_collapsibletrigger"
+    ],
+    "61": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_hover_card_tsx",
+      "ui_hover_card_hovercardcontent",
+      "ui_hover_card_hovercardtrigger"
+    ],
+    "62": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_radio_group_tsx",
+      "ui_radio_group_radiogroup",
+      "ui_radio_group_radiogroupitem"
+    ],
+    "63": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_scroll_area_tsx",
+      "ui_scroll_area_scrollarea",
+      "ui_scroll_area_scrollbar"
+    ],
+    "64": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_slider_tsx",
+      "ui_slider_cn",
+      "ui_slider_slider"
+    ],
+    "65": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_tabs_tsx",
+      "ui_tabs_cn",
+      "ui_tabs_tabs"
+    ],
+    "66": [
+      "restaurantcard_restaurantcard_normalizeaddress",
+      "restaurantcard_restaurantcard_restaurantcard",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_restaurantcard_restaurantcard_tsx"
+    ],
+    "67": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_vouchertab_vouchercard_tsx",
+      "vouchertab_vouchercard_formatdate",
+      "vouchertab_vouchercard_todate"
+    ],
+    "68": [
+      "restaurantdetailmodal_restaurantdetailmodal_handleconfirm",
+      "restaurantdetailmodal_restaurantdetailmodal_handleitemclick",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_restaurantdetailmodal_restaurantdetailmodal_tsx"
+    ],
+    "69": [
+      "pages_menuscanner_handlescan",
+      "pages_menuscanner_reset",
+      "tdtt_reactjs_nhom_1_src_pages_menuscanner_tsx"
+    ],
+    "70": [
+      "readme_project",
+      "rule_code",
+      "schema_main"
+    ],
+    "71": [
+      "scripts_clean_data_gql",
+      "scripts_clean_data_mjs"
+    ],
+    "72": [
+      "src_app_module_appmodule",
+      "tdtt_nestjs_nhom_1_src_app_module_ts"
+    ],
+    "73": [
+      "src_main_bootstrap",
+      "tdtt_nestjs_nhom_1_src_main_ts"
+    ],
+    "74": [
+      "dto_menu_item_dto_menuitemdto",
+      "tdtt_nestjs_nhom_1_src_modules_restaurants_dto_menu_item_dto_ts"
+    ],
+    "75": [
+      "dto_restaurant_dto_restaurantdto",
+      "tdtt_nestjs_nhom_1_src_modules_restaurants_dto_restaurant_dto_ts"
+    ],
+    "76": [
+      "algorithms_haversine_calculatedistance",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_algorithms_haversine_ts"
+    ],
+    "77": [
+      "dto_cluster_dto_clusterdto",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_dto_cluster_dto_ts"
+    ],
+    "78": [
+      "dto_location_dto_locationdto",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_dto_location_dto_ts"
+    ],
+    "79": [
+      "dto_route_request_dto_routerequestdto",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_dto_route_request_dto_ts"
+    ],
+    "80": [
+      "dto_search_location_dto_searchlocationdto",
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_dto_search_location_dto_ts"
+    ],
+    "81": [
+      "examples_gold_standard_card_activitycard",
+      "tdtt_reactjs_nhom_1_skills_react_components_examples_gold_standard_card_tsx"
+    ],
+    "82": [
+      "resources_component_template_stitchcomponent",
+      "tdtt_reactjs_nhom_1_skills_react_components_resources_component_template_tsx"
+    ],
+    "83": [
+      "scripts_validate_validatecomponent",
+      "tdtt_reactjs_nhom_1_skills_react_components_scripts_validate_js"
+    ],
+    "84": [
+      "examples_walkthroughcomposition_calculateduration",
+      "tdtt_reactjs_nhom_1_skills_remotion_examples_walkthroughcomposition_tsx"
+    ],
+    "85": [
+      "resources_screen_slide_template_screenslide",
+      "tdtt_reactjs_nhom_1_skills_remotion_resources_screen_slide_template_tsx"
+    ],
+    "86": [
+      "examples_auth_layout_onsubmit",
+      "tdtt_reactjs_nhom_1_skills_shadcn_ui_examples_auth_layout_tsx"
+    ],
+    "87": [
+      "examples_form_pattern_onsubmit",
+      "tdtt_reactjs_nhom_1_skills_shadcn_ui_examples_form_pattern_tsx"
+    ],
+    "88": [
+      "components_chatbot_handlesend",
+      "tdtt_reactjs_nhom_1_src_common_components_chatbot_tsx"
+    ],
+    "89": [
+      "components_sidebarconfig_getnavsections",
+      "tdtt_reactjs_nhom_1_src_common_components_sidebarconfig_tsx"
+    ],
+    "90": [
+      "components_themeprovider_themeprovider",
+      "tdtt_reactjs_nhom_1_src_common_components_themeprovider_tsx"
+    ],
+    "91": [
+      "bottomnav_bottomnav_bottomnav",
+      "tdtt_reactjs_nhom_1_src_common_components_bottomnav_bottomnav_tsx"
+    ],
+    "92": [
+      "figma_imagewithfallback_handleerror",
+      "tdtt_reactjs_nhom_1_src_common_components_figma_imagewithfallback_tsx"
+    ],
+    "93": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_accordion_tsx",
+      "ui_accordion_accordion"
+    ],
+    "94": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_badge_tsx",
+      "ui_badge_badge"
+    ],
+    "95": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_button_tsx",
+      "ui_button_cn"
+    ],
+    "96": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_card_tsx",
+      "ui_card_cn"
+    ],
+    "97": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_checkbox_tsx",
+      "ui_checkbox_checkbox"
+    ],
+    "98": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_command_tsx",
+      "ui_command_cn"
+    ],
+    "99": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_input_tsx",
+      "ui_input_input"
+    ],
+    "100": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_label_tsx",
+      "ui_label_label"
+    ],
+    "101": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_popover_tsx",
+      "ui_popover_popovertrigger"
+    ],
+    "102": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_separator_tsx",
+      "ui_separator_separator"
+    ],
+    "103": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_skeleton_tsx",
+      "ui_skeleton_skeleton"
+    ],
+    "104": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_sonner_tsx",
+      "ui_sonner_toaster"
+    ],
+    "105": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_switch_tsx",
+      "ui_switch_switch"
+    ],
+    "106": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_textarea_tsx",
+      "ui_textarea_cn"
+    ],
+    "107": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_use_mobile_ts",
+      "ui_use_mobile_useismobile"
+    ],
+    "108": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_utils_ts",
+      "ui_utils_cn"
+    ],
+    "109": [
+      "components_locationbar_locationbar",
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_components_locationbar_tsx"
+    ],
+    "110": [
+      "hooks_usegrouptaste_usegrouptaste",
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_hooks_usegrouptaste_ts"
+    ],
+    "111": [
+      "hooks_uselocation_uselocation",
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_hooks_uselocation_ts"
+    ],
+    "112": [
+      "hooks_userestaurants_userestaurants",
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_hooks_userestaurants_ts"
+    ],
+    "113": [
+      "postfilter_postfilter_postfilter",
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_postfilter_postfilter_tsx"
+    ],
+    "114": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_userachievementcard_userachievementcard_tsx",
+      "userachievementcard_userachievementcard_handlecardclick"
+    ],
+    "115": [
+      "changerestaurantmodal_changerestaurantmodal_handleselectdish",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_changerestaurantmodal_changerestaurantmodal_tsx"
+    ],
+    "116": [
+      "costsummary_costsummary_formatcurrency",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_costsummary_costsummary_tsx"
+    ],
+    "117": [
+      "schedulebanner_schedulebanner_schedulebanner",
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_schedulebanner_schedulebanner_tsx"
+    ],
+    "118": [
+      "pages_fileuploaddemo_handlefileselect",
+      "tdtt_reactjs_nhom_1_src_pages_fileuploaddemo_tsx"
+    ],
+    "119": [
+      "pages_grouptaste_handlenext",
+      "tdtt_reactjs_nhom_1_src_pages_grouptaste_tsx"
+    ],
+    "120": [
+      "pages_home_featurecard",
+      "tdtt_reactjs_nhom_1_src_pages_home_tsx"
+    ],
+    "121": [
+      "pages_loadingmodaldemo_loadingmodaldemo",
+      "tdtt_reactjs_nhom_1_src_pages_loadingmodaldemo_tsx"
+    ],
+    "122": [
+      "pages_quests_emptystate",
+      "tdtt_reactjs_nhom_1_src_pages_quests_tsx"
+    ],
+    "123": [
+      "tdtt_reactjs_nhom_1_src_utils_retryrequest_ts",
+      "utils_retryrequest_retryrequest"
+    ],
+    "124": [
+      "scripts_test_endpoint_mjs"
+    ],
+    "125": [
+      "tdtt_nestjs_nhom_1_eslint_config_mjs"
+    ],
+    "126": [
+      "tdtt_nestjs_nhom_1_src_app_controller_spec_ts"
+    ],
+    "127": [
+      "tdtt_nestjs_nhom_1_src_configs_firebase_config_ts"
+    ],
+    "128": [
+      "tdtt_nestjs_nhom_1_src_dataconnect_admin_generated_index_d_ts"
+    ],
+    "129": [
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_scheduler_controller_spec_ts"
+    ],
+    "130": [
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_scheduler_service_spec_ts"
+    ],
+    "131": [
+      "tdtt_nestjs_nhom_1_src_modules_scheduler_dto_final_plan_dto_ts"
+    ],
+    "132": [
+      "tdtt_nestjs_nhom_1_src_providers_firebase_provider_ts"
+    ],
+    "133": [
+      "tdtt_nestjs_nhom_1_test_app_e2e_spec_ts"
+    ],
+    "134": [
+      "tdtt_reactjs_nhom_1_capture_logs_js"
+    ],
+    "135": [
+      "tdtt_reactjs_nhom_1_eslint_config_js"
+    ],
+    "136": [
+      "tdtt_reactjs_nhom_1_test_js"
+    ],
+    "137": [
+      "tdtt_reactjs_nhom_1_vite_config_ts"
+    ],
+    "138": [
+      "tdtt_reactjs_nhom_1_skills_shadcn_ui_examples_data_table_tsx"
+    ],
+    "139": [
+      "tdtt_reactjs_nhom_1_src_routes_tsx"
+    ],
+    "140": [
+      "tdtt_reactjs_nhom_1_src_common_components_fileupload_tsx"
+    ],
+    "141": [
+      "tdtt_reactjs_nhom_1_src_common_components_foodcard_tsx"
+    ],
+    "142": [
+      "tdtt_reactjs_nhom_1_src_common_components_loadingmodal_tsx"
+    ],
+    "143": [
+      "tdtt_reactjs_nhom_1_src_common_components_placeholderpage_placeholderpage_tsx"
+    ],
+    "144": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_aspect_ratio_tsx"
+    ],
+    "145": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_calendar_tsx"
+    ],
+    "146": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_progress_tsx"
+    ],
+    "147": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_resizable_tsx"
+    ],
+    "148": [
+      "tdtt_reactjs_nhom_1_src_common_components_ui_toggle_tsx"
+    ],
+    "149": [
+      "tdtt_reactjs_nhom_1_src_core_firebase_firebaseconfig_ts"
+    ],
+    "150": [
+      "tdtt_reactjs_nhom_1_src_dataconnect_generated_index_d_ts"
+    ],
+    "151": [
+      "tdtt_reactjs_nhom_1_src_dataconnect_generated_react_index_d_ts"
+    ],
+    "152": [
+      "tdtt_reactjs_nhom_1_src_modules_auth_services_firebase_ts"
+    ],
+    "153": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_grouptastepage_tsx"
+    ],
+    "154": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_index_ts"
+    ],
+    "155": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_components_recommendationbutton_tsx"
+    ],
+    "156": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_components_restaurantlist_tsx"
+    ],
+    "157": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_components_sharegroup_tsx"
+    ],
+    "158": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_data_mock_data_ts"
+    ],
+    "159": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_dto_group_request_dto_ts"
+    ],
+    "160": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_dto_index_ts"
+    ],
+    "161": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_dto_restaurant_dto_ts"
+    ],
+    "162": [
+      "tdtt_reactjs_nhom_1_src_modules_group_taste_types_index_ts"
+    ],
+    "163": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_adminquestspanel_questpreviews_tsx"
+    ],
+    "164": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_components_postlist_postlist_tsx"
+    ],
+    "165": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_pages_blogpage_tsx"
+    ],
+    "166": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_services_firebaseblogservice_ts"
+    ],
+    "167": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_services_mockdata_ts"
+    ],
+    "168": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_types_blog_types_ts"
+    ],
+    "169": [
+      "tdtt_reactjs_nhom_1_src_modules_quests_types_quest_types_ts"
+    ],
+    "170": [
+      "tdtt_reactjs_nhom_1_src_modules_scanning_types_scan_types_ts"
+    ],
+    "171": [
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_mealcard_mealcard_tsx"
+    ],
+    "172": [
+      "tdtt_reactjs_nhom_1_src_modules_schedule_components_swapmealmodal_swapmealmodal_tsx"
+    ],
+    "173": [
+      "tdtt_reactjs_nhom_1_src_pages_itinerary_tsx"
+    ],
+    "174": [
+      "tdtt_reactjs_nhom_1_src_pages_store_tsx"
+    ],
+    "175": [
+      "tdtt_reactjs_nhom_1_src_services_grouptaste_service_ts"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08,
+    "1": 0.06,
+    "2": 0.11,
+    "3": 0.15,
+    "4": 0.2,
+    "5": 0.2,
+    "6": 0.2,
+    "7": 0.22,
+    "8": 0.2,
+    "9": 0.22,
+    "10": 0.25,
+    "11": 0.25,
+    "12": 0.25,
+    "13": 0.29,
+    "14": 0.29,
+    "15": 0.29,
+    "16": 0.29,
+    "17": 0.29,
+    "18": 0.43,
+    "19": 0.29,
+    "20": 0.38,
+    "21": 0.33,
+    "22": 0.33,
+    "23": 0.53,
+    "24": 0.33,
+    "25": 0.33,
+    "26": 0.33,
+    "27": 0.6,
+    "28": 0.53,
+    "29": 0.4,
+    "30": 0.6,
+    "31": 0.5,
+    "32": 0.4,
+    "33": 0.4,
+    "34": 0.4,
+    "35": 0.4,
+    "36": 0.5,
+    "37": 0.5,
+    "38": 0.5,
+    "39": 0.5,
+    "40": 0.5,
+    "41": 0.5,
+    "42": 0.5,
+    "43": 0.5,
+    "44": 0.5,
+    "45": 0.5,
+    "46": 0.5,
+    "47": 0.5,
+    "48": 0.5,
+    "49": 0.5,
+    "50": 0.67,
+    "51": 0.67,
+    "52": 0.67,
+    "53": 0.67,
+    "54": 0.67,
+    "55": 0.67,
+    "56": 0.67,
+    "57": 0.67,
+    "58": 0.67,
+    "59": 0.67,
+    "60": 0.67,
+    "61": 0.67,
+    "62": 0.67,
+    "63": 0.67,
+    "64": 0.67,
+    "65": 0.67,
+    "66": 0.67,
+    "67": 1.0,
+    "68": 0.67,
+    "69": 0.67,
+    "70": 0.67,
+    "71": 1.0,
+    "72": 1.0,
+    "73": 1.0,
+    "74": 1.0,
+    "75": 1.0,
+    "76": 1.0,
+    "77": 1.0,
+    "78": 1.0,
+    "79": 1.0,
+    "80": 1.0,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0,
+    "97": 1.0,
+    "98": 1.0,
+    "99": 1.0,
+    "100": 1.0,
+    "101": 1.0,
+    "102": 1.0,
+    "103": 1.0,
+    "104": 1.0,
+    "105": 1.0,
+    "106": 1.0,
+    "107": 1.0,
+    "108": 1.0,
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0,
+    "145": 1.0,
+    "146": 1.0,
+    "147": 1.0,
+    "148": 1.0,
+    "149": 1.0,
+    "150": 1.0,
+    "151": 1.0,
+    "152": 1.0,
+    "153": 1.0,
+    "154": 1.0,
+    "155": 1.0,
+    "156": 1.0,
+    "157": 1.0,
+    "158": 1.0,
+    "159": 1.0,
+    "160": 1.0,
+    "161": 1.0,
+    "162": 1.0,
+    "163": 1.0,
+    "164": 1.0,
+    "165": 1.0,
+    "166": 1.0,
+    "167": 1.0,
+    "168": 1.0,
+    "169": 1.0,
+    "170": 1.0,
+    "171": 1.0,
+    "172": 1.0,
+    "173": 1.0,
+    "174": 1.0,
+    "175": 1.0
+  },
+  "gods": [
+    {
+      "id": "scripts_seed_dataconnect_prod_main",
+      "label": "main()",
+      "degree": 11
+    },
+    {
+      "id": "esm_index_esm_listfoods",
+      "label": "listFoods()",
+      "degree": 7
+    },
+    {
+      "id": "esm_index_esm_listcategories",
+      "label": "listCategories()",
+      "degree": 6
+    },
+    {
+      "id": "esm_index_esm_listshops",
+      "label": "listShops()",
+      "degree": 6
+    },
+    {
+      "id": "scheduler_scheduler_service_schedulerservice",
+      "label": "SchedulerService",
+      "degree": 6
+    },
+    {
+      "id": "ui_alert_alert",
+      "label": "Alert()",
+      "degree": 6
+    },
+    {
+      "id": "esm_index_esm_createcategory",
+      "label": "createCategory()",
+      "degree": 5
+    },
+    {
+      "id": "esm_index_esm_createshop",
+      "label": "createShop()",
+      "degree": 5
+    },
+    {
+      "id": "esm_index_esm_createfooditem",
+      "label": "createFoodItem()",
+      "degree": 5
+    },
+    {
+      "id": "scheduler_scheduler_controller_schedulercontroller",
+      "label": "SchedulerController",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "handleClearCategory()",
+      "target": "listFoods()",
+      "source_files": [
+        "TDTT_ReactJS_Nhom_1\\src\\pages\\FoodMarket.tsx",
+        "TDTT_ReactJS_Nhom_1\\src\\dataconnect-generated\\esm\\index.esm.js"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `handleClearCategory()` unexpectedly reaches hub `listFoods()`"
+    },
+    {
+      "source": "handleGetLocation()",
+      "target": "Alert()",
+      "source_files": [
+        "TDTT_ReactJS_Nhom_1\\src\\modules\\group-taste\\components\\UserInputForm.tsx",
+        "TDTT_ReactJS_Nhom_1\\src\\common\\components\\ui\\alert.tsx"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `handleGetLocation()` unexpectedly reaches hub `Alert()`"
+    },
+    {
+      "source": "handleAddSnack()",
+      "target": "Alert()",
+      "source_files": [
+        "TDTT_ReactJS_Nhom_1\\src\\modules\\schedule\\components\\DailyPlanView\\DailyPlanView.tsx",
+        "TDTT_ReactJS_Nhom_1\\src\\common\\components\\ui\\alert.tsx"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `handleAddSnack()` unexpectedly reaches hub `Alert()`"
+    },
+    {
+      "source": "handleSubmit()",
+      "target": "Alert()",
+      "source_files": [
+        "TDTT_ReactJS_Nhom_1\\src\\modules\\schedule\\components\\ScheduleFilterModal\\ScheduleFilterModal.tsx",
+        "TDTT_ReactJS_Nhom_1\\src\\common\\components\\ui\\alert.tsx"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "handleGenerateSubmit()",
+      "target": "Alert()",
+      "source_files": [
+        "TDTT_ReactJS_Nhom_1\\src\\modules\\schedule\\pages\\SchedulePage\\SchedulePage.tsx",
+        "TDTT_ReactJS_Nhom_1\\src\\common\\components\\ui\\alert.tsx"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `handleGenerateSubmit()` unexpectedly reaches hub `Alert()`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Alert()` connect `Community 1` to `Community 3`?",
+      "why": "High betweenness centrality (0.004) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `handleSubmit()` connect `Community 3` to `Community 1`?",
+      "why": "High betweenness centrality (0.003) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 6 inferred relationships involving `main()` (e.g. with `createCategory()` and `listCategories()`) actually correct?",
+      "why": "`main()` has 6 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 4 inferred relationships involving `listFoods()` (e.g. with `main()` and `fetchData()`) actually correct?",
+      "why": "`listFoods()` has 4 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `listCategories()` (e.g. with `main()` and `fetchData()`) actually correct?",
+      "why": "`listCategories()` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `listShops()` (e.g. with `main()` and `fetchData()`) actually correct?",
+      "why": "`listShops()` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `AppModule`, `MenuItemDto`, `RestaurantDto` to the rest of the system?",
+      "why": "9 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}
