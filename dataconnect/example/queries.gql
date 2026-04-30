@@ -37,6 +37,9 @@ query ListFoods($limit: Int, $offset: Int) @auth(level: PUBLIC) {
       address
       lat
       lng
+      coverImage
+      openTime
+      closeTime
     }
     category {
       id
@@ -68,6 +71,9 @@ query ListFoodsByCategory($categoryId: UUID!, $limit: Int, $offset: Int)
       id
       name
       rating
+      coverImage
+      openTime
+      closeTime
     }
     category {
       id
