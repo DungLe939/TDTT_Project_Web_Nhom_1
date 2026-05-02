@@ -7,6 +7,6 @@ generate:
       react: true
       angular: false
   adminNodeSdk:
-    - outputDir: ..\..\TDTT_NestJS_Nhom_1\src\dataconnect-admin-generated
+    - outputDir: ..\..\TDTT_NestJS_Nhom1\src\dataconnect-admin-generated
       package: "@dataconnect/admin-generated"
-      packageJsonDir: ..\..\TDTT_NestJS_Nhom_1
+      packageJsonDir: ..\..\TDTT_NestJS_Nhom1

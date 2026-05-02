@@ -46,6 +46,9 @@ type Shop @table {
   priceMax: Int                     # shops[].price_range.max
   priceDisplay: String              # shops[].price_range.display
 
+  latitude: Float @index            # Tọa độ Vĩ độ (Geocoding)
+  longitude: Float @index           # Tọa độ Kinh độ (Geocoding)
+
   # Quan hệ optional để theo dõi lô dữ liệu crawl
   crawlBatch: CrawlBatch
 
@@ -88,4 +91,19 @@ type FoodItem @table {
   category: Category! @ref(fields: "categoryId", references: "id") # N FoodItem -> 1 Category
 
   createdAt: Timestamp! @default(expr: "request.time")
+}
+
+# ==========================================
+# Bảng 5: PlanCache (Bộ nhớ đệm lịch trình)
+# ==========================================
+# Sử dụng kiểu Any (tương đương jsonb) để lưu dữ liệu object lồng nhau.
+type PlanCache @table {
+  id: String!
+  rawRestaurants: Any
+  orderedPlan: Any
+  mealBudgetConfig: Any
+  preferences: Any
+  usedCategories: [String!]!
+  dayScores: Any
+  updatedAt: Timestamp! @default(expr: "request.time")
 }
