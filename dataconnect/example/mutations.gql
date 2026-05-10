@@ -23,7 +23,9 @@ mutation CreateShop(
   $closeTime: String,
   $priceMin: Int,
   $priceMax: Int,
-  $priceDisplay: String
+  $priceDisplay: String,
+  $latitude: Float!,
+  $longitude: Float!
 ) @auth(level: PUBLIC) {
   shop_insert(data: {
     externalId: $externalId,
@@ -37,7 +39,9 @@ mutation CreateShop(
     closeTime: $closeTime,
     priceMin: $priceMin,
     priceMax: $priceMax,
-    priceDisplay: $priceDisplay
+    priceDisplay: $priceDisplay,
+    latitude: $latitude,
+    longitude: $longitude
   })
 }
 
@@ -67,5 +71,51 @@ mutation CreateFoodItem(
     totalLike: $totalLike,
     shopId: $shopId,
     categoryId: $categoryId
+  })
+}
+
+# ===========================================
+# Mutations cho PlanCache
+# ===========================================
+
+mutation UpsertPlanCache(
+  $guestId: String!,
+  $rawRestaurants: Any,
+  $orderedPlan: Any,
+  $mealBudgetConfig: Any,
+  $preferences: Any,
+  $usedCategories: [String!]!,
+  $dayScores: Any
+) @auth(level: PUBLIC) {
+  planCache_upsert(data: {
+    id: $guestId,
+    rawRestaurants: $rawRestaurants,
+    orderedPlan: $orderedPlan,
+    mealBudgetConfig: $mealBudgetConfig,
+    preferences: $preferences,
+    usedCategories: $usedCategories,
+    dayScores: $dayScores
+  })
+}
+
+mutation DeletePlanCache($guestId: String!) @auth(level: PUBLIC) {
+  planCache_delete(id: $guestId)
+}
+
+mutation UpdateDayScores(
+  $guestId: String!,
+  $dayScores: Any
+) @auth(level: PUBLIC) {
+  planCache_update(id: $guestId, data: {
+    dayScores: $dayScores
+  })
+}
+
+mutation UpdateUsedCategories(
+  $guestId: String!,
+  $usedCategories: [String!]!
+) @auth(level: PUBLIC) {
+  planCache_update(id: $guestId, data: {
+    usedCategories: $usedCategories
   })
 }

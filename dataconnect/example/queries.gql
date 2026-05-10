@@ -109,6 +109,8 @@ query GetFoodDetail($id: UUID!) @auth(level: PUBLIC) {
       priceMin
       priceMax
       priceDisplay
+      latitude
+      longitude
     }
     category {
       id
@@ -138,6 +140,8 @@ query GetShopDetail($id: UUID!) @auth(level: PUBLIC) {
     priceMin
     priceMax
     priceDisplay
+    latitude
+    longitude
     foodItems_on_shop {
       id
       name
@@ -174,7 +178,64 @@ query ListShops($limit: Int, $offset: Int) @auth(level: PUBLIC) {
     priceDisplay
     openTime
     closeTime
-    lat
-    lng
+    latitude
+    longitude
+  }
+}
+
+# Lấy danh sách TẤT CẢ shops kèm theo thực đơn (Dành cho việc Load dữ liệu ban đầu vào RAM)
+query ListAllShopsWithMenu @auth(level: PUBLIC) {
+  shops(
+    orderBy: [{ rating: DESC }, { name: ASC }]
+  ) {
+    id
+    externalId
+    name
+    address
+    city
+    rating
+    coverImage
+    url
+    openTime
+    closeTime
+    priceMin
+    priceMax
+    priceDisplay
+    latitude
+    longitude
+    foodItems_on_shop {
+      id
+      name
+      description
+      price
+      priceDisplay
+      imageUrl
+      thumbnailUrl
+      groupName
+      isPopular
+      totalLike
+      category {
+        id
+        name
+        slug
+      }
+    }
+  }
+}
+
+# ===========================================
+# Queries cho PlanCache
+# ===========================================
+
+query GetPlanCache($guestId: String!) @auth(level: PUBLIC) {
+  planCache(id: $guestId) {
+    id
+    rawRestaurants
+    orderedPlan
+    mealBudgetConfig
+    preferences
+    usedCategories
+    dayScores
+    updatedAt
   }
 }
