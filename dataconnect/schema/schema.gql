@@ -48,8 +48,6 @@ type Shop @table {
   priceMax: Int                     # shops[].price_range.max
   priceDisplay: String              # shops[].price_range.display
 
-  latitude: Float @index            # Tọa độ Vĩ độ (Geocoding)
-  longitude: Float @index           # Tọa độ Kinh độ (Geocoding)
 
   # Quan hệ optional để theo dõi lô dữ liệu crawl
   crawlBatch: CrawlBatch
@@ -85,6 +83,8 @@ type FoodItem @table {
   # Về logic có thể suy ra từ shop, nhưng giữ lại để trace nguồn dữ liệu.
   sourceRestaurantName: String
   sourceRestaurantUrl: String @index
+
+  tags: [String!]                   # Mảng chứa các khẩu vị và thành phần dị ứng
 
   # === Quan hệ ===
   shopId: UUID!

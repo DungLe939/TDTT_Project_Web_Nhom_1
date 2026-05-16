@@ -15,7 +15,7 @@ async function gql(query) {
 
 // Xóa tất cả food_items trước (vì có FK)
 console.log("🗑️  Xóa tất cả FoodItems...");
-const foods = await gql("query { foodItems { id } }");
+const foods = await gql("query { foodItems(limit: 10000) { id } }");
 for (const f of foods.data?.foodItems || []) {
   await gql(`mutation { foodItem_delete(id: "${f.id}") }`);
 }
@@ -23,7 +23,7 @@ console.log(`   Đã xóa ${foods.data?.foodItems?.length || 0} food items`);
 
 // Xóa tất cả shops
 console.log("🗑️  Xóa tất cả Shops...");
-const shops = await gql("query { shops { id } }");
+const shops = await gql("query { shops(limit: 10000) { id } }");
 for (const s of shops.data?.shops || []) {
   await gql(`mutation { shop_delete(id: "${s.id}") }`);
 }
@@ -31,7 +31,7 @@ console.log(`   Đã xóa ${shops.data?.shops?.length || 0} shops`);
 
 // Xóa tất cả categories
 console.log("🗑️  Xóa tất cả Categories...");
-const cats = await gql("query { categories { id name } }");
+const cats = await gql("query { categories(limit: 10000) { id name } }");
 for (const c of cats.data?.categories || []) {
   await gql(`mutation { category_delete(id: "${c.id}") }`);
   console.log(`   🗑️  "${c.name}"`);
