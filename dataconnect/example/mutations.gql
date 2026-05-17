@@ -24,8 +24,8 @@ mutation CreateShop(
   $priceMin: Int,
   $priceMax: Int,
   $priceDisplay: String,
-  $latitude: Float!,
-  $longitude: Float!
+  $lat: Float!,
+  $lng: Float!
 ) @auth(level: PUBLIC) {
   shop_insert(data: {
     externalId: $externalId,
@@ -40,8 +40,8 @@ mutation CreateShop(
     priceMin: $priceMin,
     priceMax: $priceMax,
     priceDisplay: $priceDisplay,
-    latitude: $latitude,
-    longitude: $longitude
+    lat: $lat,
+    lng: $lng
   })
 }
 

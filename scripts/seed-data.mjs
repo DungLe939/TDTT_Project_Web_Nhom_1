@@ -81,7 +81,7 @@ async function main() {
   // ----------------------------------------------------------
   // 1. Đọc file dữ liệu
   // ----------------------------------------------------------
-  const dataPath = resolve(__dirname, "..", "Data", "shopeefood_shops.json");
+  const dataPath = resolve(__dirname, "..", "Data", "shopeefood_all.json");
   console.log(`📖 Đọc file: ${dataPath}`);
   const rawData = JSON.parse(readFileSync(dataPath, "utf-8"));
 
@@ -187,7 +187,7 @@ async function main() {
       externalId: String(shop.id),
       name: shop.name,
       address: shop.address,
-      city: rawData.city || "ho-chi-minh",
+      city: shop.city || "ho-chi-minh",
       rating: shop.rating ?? null,
       coverImage: shop.cover_image ?? null,
       url: shop.url,
@@ -212,8 +212,8 @@ async function main() {
     }
   }
 
-  // Query lại tất cả shops để lấy URL -> ID map
-  const shopResult = await gql("query { shops { id url } }");
+  // Query lại tất cả shops để lấy URL -> ID map (thêm limit để lấy hết 123 quán)
+  const shopResult = await gql("query { shops(limit: 1000) { id url } }");
   const shopMap = new Map();
   for (const s of shopResult.shops) {
     shopMap.set(s.url, s.id);
@@ -241,7 +241,8 @@ async function main() {
       $isPopular: Boolean!,
       $totalLike: Int!,
       $shopId: UUID!,
-      $categoryId: UUID!
+      $categoryId: UUID!,
+      $tags: [String!]
     ) {
       foodItem_insert(data: {
         name: $name,
@@ -254,7 +255,8 @@ async function main() {
         isPopular: $isPopular,
         totalLike: $totalLike,
         shopId: $shopId,
-        categoryId: $categoryId
+        categoryId: $categoryId,
+        tags: $tags
       })
     }
   `;
@@ -291,12 +293,13 @@ async function main() {
         price: food.price_value || food.price,
         priceDisplay: food.price_display || null,
         imageUrl: food.image_url || null,
-        thumbnailUrl: food.photo_id || null,
+        thumbnailUrl: food.thumbnail_url || food.photo_id || null,
         groupName: food.group_name || null,
         isPopular: food.is_popular || false,
         totalLike: food.total_like || 0,
         shopId,
         categoryId,
+        tags: food.tags || [],
       };
 
       try {

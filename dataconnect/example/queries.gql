@@ -30,6 +30,7 @@ query ListFoods($limit: Int, $offset: Int) @auth(level: PUBLIC) {
     groupName
     isPopular
     totalLike
+    tags
     shop {
       id
       name
@@ -67,6 +68,7 @@ query ListFoodsByCategory($categoryId: UUID!, $limit: Int, $offset: Int)
     thumbnailUrl
     isPopular
     totalLike
+    tags
     shop {
       id
       name
@@ -96,6 +98,7 @@ query GetFoodDetail($id: UUID!) @auth(level: PUBLIC) {
     groupName
     isPopular
     totalLike
+    tags
     shop {
       id
       name
@@ -109,8 +112,8 @@ query GetFoodDetail($id: UUID!) @auth(level: PUBLIC) {
       priceMin
       priceMax
       priceDisplay
-      latitude
-      longitude
+      lat
+      lng
     }
     category {
       id
@@ -140,8 +143,8 @@ query GetShopDetail($id: UUID!) @auth(level: PUBLIC) {
     priceMin
     priceMax
     priceDisplay
-    latitude
-    longitude
+    lat
+    lng
     foodItems_on_shop {
       id
       name
@@ -153,6 +156,7 @@ query GetShopDetail($id: UUID!) @auth(level: PUBLIC) {
       groupName
       isPopular
       totalLike
+      tags
       category {
         id
         name
@@ -178,14 +182,15 @@ query ListShops($limit: Int, $offset: Int) @auth(level: PUBLIC) {
     priceDisplay
     openTime
     closeTime
-    latitude
-    longitude
+    lat
+    lng
   }
 }
 
 # Lấy danh sách TẤT CẢ shops kèm theo thực đơn (Dành cho việc Load dữ liệu ban đầu vào RAM)
 query ListAllShopsWithMenu @auth(level: PUBLIC) {
   shops(
+    limit: 1000,
     orderBy: [{ rating: DESC }, { name: ASC }]
   ) {
     id
@@ -201,8 +206,8 @@ query ListAllShopsWithMenu @auth(level: PUBLIC) {
     priceMin
     priceMax
     priceDisplay
-    latitude
-    longitude
+    lat
+    lng
     foodItems_on_shop {
       id
       name
@@ -214,6 +219,7 @@ query ListAllShopsWithMenu @auth(level: PUBLIC) {
       groupName
       isPopular
       totalLike
+      tags
       category {
         id
         name
